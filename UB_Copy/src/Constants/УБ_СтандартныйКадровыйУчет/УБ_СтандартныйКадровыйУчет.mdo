@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="551765f3-36d4-4baa-8c6f-9c182a8aab40">
+  <producedTypes>
+    <managerType typeId="fb9341d3-aa67-4e73-8a85-13f3322d1231" valueTypeId="7db26d04-339f-4314-bd9a-490314df2b99"/>
+    <valueManagerType typeId="bb91d258-d002-49d6-9423-7601c83faff5" valueTypeId="26ad1c60-6b5b-4eda-86d2-1e61420ad01c"/>
+    <valueKeyType typeId="2821324b-e5f5-4ee9-8526-a36bb9c6d643" valueTypeId="33dd2ff5-7e65-4070-80e9-0d4dce95b9de"/>
+  </producedTypes>
+  <name>УБ_СтандартныйКадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартный кадровый учет (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

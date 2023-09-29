@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abb9df3-4b8b-46dc-8194-dd52be234805">
+  <producedTypes>
+    <selectionType typeId="498071a8-f0e0-4006-aa3a-7d98dc36d619" valueTypeId="7e67f5ab-20be-466f-a1d7-a4edbf3a0326"/>
+    <listType typeId="c4904675-af76-4784-808f-e876e3a2aee1" valueTypeId="3141dcb9-fa0f-4721-9f30-d12bce780a5c"/>
+    <managerType typeId="1b808d1f-a705-4531-9720-07a797c58bdd" valueTypeId="7925cbd5-67dd-465e-8b75-46d2eec6cf8b"/>
+  </producedTypes>
+  <name>УБ_КадровыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые документы (УБ)</value>
+  </synonym>
+  <defaultForm>DocumentJournal.УБ_КадровыеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.УБ_НазначениеНаДолжность</registeredDocuments>
+  <registeredDocuments>Document.УБ_ОтстранениеОтДолжности</registeredDocuments>
+  <registeredDocuments>Document.УБ_ПереводНаДолжность</registeredDocuments>
+  <registeredDocuments>Document.УБ_Делегирование</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кадровые документы</value>
+  </listPresentation>
+  <columns uuid="e37c7014-21b3-48a1-b138-6ce46119e1fb">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <references>Document.УБ_ОтстранениеОтДолжности.Attribute.Сотрудник</references>
+    <references>Document.УБ_ПереводНаДолжность.Attribute.Сотрудник</references>
+  </columns>
+  <columns uuid="81c1f7ca-84e7-4ada-8c87-fc6df2e688f5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.УБ_НазначениеНаДолжность.Attribute.Организация</references>
+    <references>Document.УБ_ОтстранениеОтДолжности.Attribute.Организация</references>
+    <references>Document.УБ_ПереводНаДолжность.Attribute.Организация</references>
+  </columns>
+  <columns uuid="64793d77-ccd2-4724-8b99-1d0b864879ff">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <references>Document.УБ_НазначениеНаДолжность.Attribute.ДатаНазначения</references>
+    <references>Document.УБ_ОтстранениеОтДолжности.Attribute.ДатаОтстранения</references>
+    <references>Document.УБ_ПереводНаДолжность.Attribute.ДатаПеревода</references>
+  </columns>
+  <columns uuid="45de97ef-d6f5-4c5a-b292-76aca10f9983">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.УБ_НазначениеНаДолжность.Attribute.Ответственный</references>
+    <references>Document.УБ_ОтстранениеОтДолжности.Attribute.Ответственный</references>
+    <references>Document.УБ_ПереводНаДолжность.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="763ba571-ab3d-48d2-ba85-7b2e0fd88978">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.УБ_НазначениеНаДолжность.Attribute.Комментарий</references>
+    <references>Document.УБ_ОтстранениеОтДолжности.Attribute.Комментарий</references>
+    <references>Document.УБ_ПереводНаДолжность.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="7d2c6c0e-767d-4d46-a0c3-9d80c45ffdcb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

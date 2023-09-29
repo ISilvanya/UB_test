@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="903f9d38-6e45-4efd-b94c-78700a8f9e6a">
+  <name>УБ_ДобавлениеИзменениеТиповПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение типов показателей (УБ)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdf709b4-845a-434c-833b-1a7190262759">
+  <name>УБ_ЧтениеДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение должностей (УБ)</value>
+  </synonym>
+</mdclass:Role>

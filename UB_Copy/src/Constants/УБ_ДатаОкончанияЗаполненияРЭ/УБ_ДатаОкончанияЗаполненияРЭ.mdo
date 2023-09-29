@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f011b18-dfba-4e4f-baf6-20cc0de8db67">
+  <producedTypes>
+    <managerType typeId="fc5ddb53-6127-4bb8-8d74-06b4accd3ed6" valueTypeId="c8e2f939-bc04-4151-8d8e-8e07f4c9f39f"/>
+    <valueManagerType typeId="80b642c0-4acf-4cac-8081-301c70f44303" valueTypeId="74e07dbd-5af6-44c3-8651-7865d93d7940"/>
+    <valueKeyType typeId="6e27f96d-79fe-436a-8a38-8ebf6b6f2e59" valueTypeId="e1c7e779-f8bf-4c66-9b89-6a8b0483b207"/>
+  </producedTypes>
+  <name>УБ_ДатаОкончанияЗаполненияРЭ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата окончания заполнения документа расчета эффективности</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <format>
+    <key>ru</key>
+    <value>ЧН=1</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ЧН=1</value>
+  </editFormat>
+  <minValue xsi:type="core:StringValue">
+    <value>1</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>31</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7849ac2d-4422-41b9-9074-cd677e8d3707">
+  <name>УБ_ПроверитьНомерДокументаПоДатеИОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить номер документа по дате и организации (УБ)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УБ_ПланированиеЦелейИПоказателей</types>
+    <types>DocumentObject.УБ_ОтстранениеОтДолжности</types>
+    <types>DocumentObject.УБ_УстановкаПропорцийМатериальнойМотивации</types>
+    <types>DocumentObject.УБ_УстановкаФиксированныхПоказателейОрганизации</types>
+    <types>DocumentObject.УБ_НазначениеРуководителя</types>
+    <types>DocumentObject.УБ_УтверждениеГрейда</types>
+    <types>DocumentObject.УБ_НазначениеНаДолжность</types>
+    <types>DocumentObject.УБ_ПереводНаДолжность</types>
+    <types>DocumentObject.УБ_РасчетЭффективностиСотрудников</types>
+    <types>DocumentObject.УБ_УстановкаФактаПоказателей</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.ПроверитьНомерДокументаПоДатеИОрганизации</handler>
+</mdclass:EventSubscription>

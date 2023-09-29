@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5f53262-ad0b-44e4-8b5d-28106dcf37b3">
+  <producedTypes>
+    <refType typeId="ec72377e-3155-463c-9475-19f0e5265672" valueTypeId="00565da9-90bf-4cfb-a2a4-648605c35801"/>
+    <listType typeId="1411a416-cd78-4af7-860c-c0314ff02706" valueTypeId="4af5b3b7-fe0f-4d3b-bbd8-fb42d09cb526"/>
+    <managerType typeId="5415cdc8-d55c-415e-8083-246b87e92ca7" valueTypeId="f0512743-987e-4f8b-bc7d-59e6b41a96ed"/>
+  </producedTypes>
+  <name>УБ_СостоянияДокументовРасчетаЭффективностиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния документов расчета эффективности сотрудников (УБ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояния документов расчета эффективности сотрудников</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Состояния документов расчета эффективности сотрудников</value>
+  </extendedListPresentation>
+  <enumValues uuid="c07bb0ed-c5db-47f2-8652-60bd370a5dd6">
+    <name>НеУтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не утвержден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31ddf2a5-905a-48b7-8a94-b8b40917ad57">
+    <name>ПланУтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>План утвержден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cb25705-13a7-4f80-918d-17c0fa4f7d0b">
+    <name>ФактУтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт утвержден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ebce271-bd2e-4315-9609-8a4705fb9c94">
+  <name>УБ_КадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учет (УБ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

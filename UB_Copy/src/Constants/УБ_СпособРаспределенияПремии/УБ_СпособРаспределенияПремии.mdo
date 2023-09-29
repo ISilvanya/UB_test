@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae86f0df-4e4c-4817-a61b-8ca344e4a398">
+  <producedTypes>
+    <managerType typeId="27ea3ca4-d319-4610-98be-9cac065d4be8" valueTypeId="12128ee4-05da-49d8-a803-6166a1a55d78"/>
+    <valueManagerType typeId="a9f6ff64-b21a-438f-86e2-2078f800e2a2" valueTypeId="3a8f386c-1d31-4b9b-8cf5-dca0099d7463"/>
+    <valueKeyType typeId="3d5f743f-51ea-4578-80a4-b63f1de2d40b" valueTypeId="8118053b-11d2-401a-b098-b5ecec74b450"/>
+  </producedTypes>
+  <name>УБ_СпособРаспределенияПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ распределения премии (УБ)</value>
+  </synonym>
+  <type>
+    <types>EnumRef.УБ_СпособРаспределенияПремии</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

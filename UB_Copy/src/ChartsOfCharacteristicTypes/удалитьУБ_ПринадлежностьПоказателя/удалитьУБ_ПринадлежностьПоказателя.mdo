@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4142647-df72-4e6a-91fd-18e3f797a75e">
+  <producedTypes>
+    <objectType typeId="755d36fb-fa19-4320-8be1-d8f3f30bb1bb" valueTypeId="dc8158ac-787b-42db-9f27-c492f43e270e"/>
+    <refType typeId="249aa8c5-d35d-45cb-bf61-08bc59757d54" valueTypeId="dc48d547-95ef-41e3-a816-779a57c047b5"/>
+    <selectionType typeId="bd1e1356-8f84-4e09-868e-238e64bb21fd" valueTypeId="84df3905-e86e-4555-bdad-d235c4c5bb4d"/>
+    <listType typeId="14b7e365-50c3-48cb-974b-91c7e28471d1" valueTypeId="79cff2a1-8428-47af-ad1b-af95218d5511"/>
+    <managerType typeId="1d84c690-c974-4708-957c-9ffc9389f409" valueTypeId="b273c3b8-3ed9-4180-87ef-308a6589556e"/>
+    <containerType typeId="9ac8eca0-6a11-40b4-8574-a726f98fd366" valueTypeId="e999e165-fb19-4540-add3-84e07f7bb893"/>
+  </producedTypes>
+  <name>удалитьУБ_ПринадлежностьПоказателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принадлежность показателя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.удалитьУБ_ПринадлежностьПоказателя.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.удалитьУБ_ПринадлежностьПоказателя.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.УБ_Подразделения</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.УБ_Сотрудники</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.Проекты</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ce1aa2f5-d4ad-4809-811e-88f4d482c709">
+      <name>Организация</name>
+      <description>Организация</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+    </items>
+    <items id="7830e70a-bb60-46d2-85aa-479ee0e31388">
+      <name>Подразделение</name>
+      <description>Подразделение</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.УБ_Подразделения</types>
+      </type>
+    </items>
+    <items id="f9f1f16f-a6ce-4a97-b230-f8d462d52744">
+      <name>Сотрудник</name>
+      <description>Сотрудник</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.УБ_Сотрудники</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

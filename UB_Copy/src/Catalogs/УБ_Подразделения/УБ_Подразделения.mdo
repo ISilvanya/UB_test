@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="504f3638-9f75-42c0-af37-bb18cfa2d36e">
+  <producedTypes>
+    <objectType typeId="8c03afd3-c4bc-4b3e-bc19-7ec71a258064" valueTypeId="669c523f-bc44-445c-85b7-3da69487eacd"/>
+    <refType typeId="46533dec-7f07-4f11-8b30-f257e79c4bf8" valueTypeId="0030eed4-c952-40e4-8cce-733f8f6029cf"/>
+    <selectionType typeId="7715deaf-c3c6-49fa-b859-118a3dd33730" valueTypeId="59990cf6-a9e2-4c13-8f00-d7e2ede6f369"/>
+    <listType typeId="ff505fdd-ccc3-4c56-9bf8-fcb1f10b3093" valueTypeId="61f5cdfe-a51f-43ce-b794-53d0bfa9865b"/>
+    <managerType typeId="2f3040ee-5701-4adc-b58d-fa7d6fbebbb5" valueTypeId="ebea0c5d-45d4-49ec-9d55-1d0b024ce022"/>
+  </producedTypes>
+  <name>УБ_Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_Подразделения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБ_Подразделения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБ_Подразделения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4d3ff4aa-166a-40c2-be96-585242f0773f">
+    <name>Сформировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Created</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eacbb40a-cc7e-4a32-8242-62b14a5fab7d">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Creation date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c5a67b8-cbcf-41a2-b9d9-b741eddeae6a">
+    <name>Расформировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расформировано</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Disbanded</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0a7febb-ffbb-4ce2-9ad5-219e40aa0f06">
+    <name>ДатаРасформирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата расформирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of disbandment</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3ef9ba5-5f86-4d18-9533-2ab6f573bbfc">
+    <name>СтруктураПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура предприятия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fed9a57a-016d-4248-bfcb-817488c28fef">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4341da0a-79bd-4d64-a3dd-dd625e6fde58">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ca457e7-cde9-4e36-9257-535e187b0655">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a1f5cccb-1f51-42d8-aa73-087008338921">
+    <name>Запланироватьпоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировать показатель</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.УБ_ПланированиеЦелейИПоказателей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

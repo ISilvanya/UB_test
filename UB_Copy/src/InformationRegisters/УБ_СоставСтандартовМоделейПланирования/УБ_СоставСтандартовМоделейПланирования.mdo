@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70d4e7f5-230e-413b-9df5-ba9b155f0df0">
+  <producedTypes>
+    <selectionType typeId="bbda6963-65f6-42dc-9ede-01c74f97bae8" valueTypeId="3b212daa-e7b3-4185-ad95-c5fe04a790ed"/>
+    <listType typeId="643cb5e0-952d-45f2-9108-3055f9480c6a" valueTypeId="842ab1ca-0f56-4cf2-ba2c-26c91d80f8ca"/>
+    <managerType typeId="da313af9-e703-4fff-af1f-8c3ca9ef11ab" valueTypeId="11d7d3de-3d47-4d9d-be74-12c2e7c9ec77"/>
+    <recordSetType typeId="48fd2f26-d8cf-45e1-abd9-6b29b13c4b26" valueTypeId="6fee3177-8d4f-4262-87b6-1751080cd016"/>
+    <recordKeyType typeId="baf0331b-0122-44b5-a07b-50d65c6afdcb" valueTypeId="6420a284-27cf-4b80-82ff-40817c260b7f"/>
+    <recordType typeId="6da9cdc6-ddb4-4c07-bcae-4cde79bf79dc" valueTypeId="42cc950b-b22c-4743-929b-4724c95bd597"/>
+    <recordManagerType typeId="fcdcfac3-ae2c-4b0b-ab6a-1bd005850358" valueTypeId="ac029b08-895c-4945-9f9f-0153570edcf4"/>
+  </producedTypes>
+  <name>УБ_СоставСтандартовМоделейПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав стандартов моделей планирования (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состав стандартов моделей планирования</value>
+  </listPresentation>
+  <resources uuid="fd30423c-2864-469d-864c-9ce1fc0c1a7f">
+    <name>ШкалаОценок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала оценок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыОценок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="59923288-fcec-4bce-9574-591419c12811">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bc037a4e-1c73-429b-bfe8-a5dbaaeabc17">
+    <name>МодельПланированияЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4329f90a-6871-4b5a-bf7c-2821e987c1cd">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.УБ_СоставСтандартовМоделейПланирования.Dimension.МодельПланированияЭффективности</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="546ee296-8192-4bdc-8181-df7e3057f89a">
+    <name>ВерсияГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия грейда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ВерсииГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.УБ_СоставСтандартовМоделейПланирования.Dimension.Грейд</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3319ef32-8813-499a-96d3-8f15839d9cbd">
+    <name>Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Стандарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

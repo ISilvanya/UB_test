@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afbb7f2e-79db-41af-b337-635b6e338bcb">
+  <producedTypes>
+    <containerType typeId="1e44528b-39fb-4624-a790-1fef8b4b820b" valueTypeId="b11fe9bf-b8fd-4108-9374-c2147887109a"/>
+  </producedTypes>
+  <name>УБ_ВерсионируемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные (УБ)</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.УБ_НазначениеРуководителя</types>
+    <types>CatalogRef.УБ_ТипыПоказателей</types>
+    <types>DocumentRef.УБ_Делегирование</types>
+    <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    <types>CatalogRef.УБ_ВерсииГрейдов</types>
+    <types>CatalogRef.УБ_Должности</types>
+    <types>CatalogRef.УБ_ПерспективыССП</types>
+    <types>DocumentRef.УБ_УстановкаПропорцийМатериальнойМотивации</types>
+    <types>CatalogRef.УБ_ВидыОценок</types>
+    <types>CatalogRef.УБ_Подразделения</types>
+    <types>CatalogRef.УБ_СмартЗадачи</types>
+    <types>CatalogRef.УБ_ШкалыОценок</types>
+    <types>DocumentRef.УБ_УтверждениеГрейда</types>
+    <types>DocumentRef.УБ_РасчетЭффективностиСотрудников</types>
+    <types>DocumentRef.УБ_УстановкаЗначенийШкалыПоказателей</types>
+    <types>CatalogRef.УБ_ПричиныОтсутствия</types>
+    <types>CatalogRef.УдалитьУБ_ПринадлежностьПоказателей</types>
+    <types>CatalogRef.УБ_Сотрудники</types>
+    <types>CatalogRef.УБ_Грейды</types>
+    <types>DocumentRef.УБ_НазначениеНаДолжность</types>
+    <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    <types>DocumentRef.УБ_УстановкаФиксированныхПоказателейОрганизации</types>
+    <types>CatalogRef.УБ_Стандарты</types>
+    <types>DocumentRef.УБ_ПланированиеЦелейИПоказателей</types>
+    <types>CatalogRef.УБ_ШтатноеРасписание</types>
+    <types>CatalogRef.УБ_ПоказателиРасчетаЗарплаты</types>
+    <types>CatalogRef.УБ_ДелегированиеПрисоединенныеФайлы</types>
+    <types>DocumentRef.УБ_УстановкаФактаПоказателей</types>
+    <types>DocumentRef.УБ_ОтстранениеОтДолжности</types>
+    <types>DocumentRef.УБ_ПереводНаДолжность</types>
+    <types>CatalogRef.УБ_ГоризонтыПланирования</types>
+    <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+  </type>
+</mdclass:DefinedType>

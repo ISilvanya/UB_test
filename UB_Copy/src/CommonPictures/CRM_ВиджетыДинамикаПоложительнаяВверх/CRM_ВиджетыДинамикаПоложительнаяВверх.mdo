@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efaa8f42-1b86-4031-aa42-2040438fde95">
+  <name>CRM_ВиджетыДинамикаПоложительнаяВверх</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виджеты динамика положительная вверх</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM speaker widgets positive up</value>
+  </synonym>
+  <comment>АПК:1032 АПК:265 не проверять на орфографию синоним и имя</comment>
+</mdclass:CommonPicture>

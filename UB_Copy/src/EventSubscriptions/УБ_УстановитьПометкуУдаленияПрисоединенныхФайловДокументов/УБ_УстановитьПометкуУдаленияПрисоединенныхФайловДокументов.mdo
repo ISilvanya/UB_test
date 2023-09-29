@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b65edc2-a21d-48a1-8e30-c90efa1c9104">
+  <name>УБ_УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УБ_ПланированиеЦелейИПоказателей</types>
+    <types>DocumentObject.УБ_НазначениеРуководителя</types>
+    <types>DocumentObject.УБ_УтверждениеГрейда</types>
+    <types>DocumentObject.УБ_Делегирование</types>
+    <types>DocumentObject.УБ_РасчетЭффективностиСотрудников</types>
+    <types>DocumentObject.УБ_УстановкаФактаПоказателей</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>

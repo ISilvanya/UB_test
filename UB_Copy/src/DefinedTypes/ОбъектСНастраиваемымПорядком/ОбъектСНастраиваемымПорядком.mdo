@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a903966-1455-46a5-a424-ef1a8d3abd1b">
+  <producedTypes>
+    <containerType typeId="572c7698-1d55-4b7d-96a6-8031a6700778" valueTypeId="631a8c47-3260-454a-9700-0ea9f49c2375"/>
+  </producedTypes>
+  <name>ОбъектСНастраиваемымПорядком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с настраиваемым порядком</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+  </type>
+</mdclass:DefinedType>

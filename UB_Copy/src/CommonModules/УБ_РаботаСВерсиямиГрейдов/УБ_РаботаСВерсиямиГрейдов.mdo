@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b23bed79-90ad-45f2-a171-b54a6d8bbaad">
+  <name>УБ_РаботаСВерсиямиГрейдов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с версиями грейдов (УБ)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

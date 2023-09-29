@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c657ce75-221f-47ce-b336-5b0358401572">
+  <producedTypes>
+    <objectType typeId="e9c03301-48a6-44b5-aa1b-223073112d8b" valueTypeId="d6384614-a3bf-4b35-90bd-0b72d1e2cde4"/>
+    <refType typeId="c3675361-01fa-401e-b06a-2ded8f4e9442" valueTypeId="851cfb06-a524-423e-8ad3-1262d93bde7d"/>
+    <selectionType typeId="1f79672e-342d-4e8c-a0ce-c8632e6d9d2b" valueTypeId="c6e7e27d-f655-4d8a-8f5d-67170f9a1781"/>
+    <listType typeId="2e9966d2-f13f-4227-aa62-a2a31d248f4f" valueTypeId="14e5783c-f61f-4331-9f40-f51e79bb3992"/>
+    <managerType typeId="e1dc9b25-055c-4124-8cb8-4bf94c0192c0" valueTypeId="ef06cb3c-4ff3-44ee-bd37-ad8313b802f8"/>
+  </producedTypes>
+  <name>ПоказателиРасчетаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели расчета зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПоказателиРасчетаЗарплаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПоказателиРасчетаЗарплаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fe5f19b3-d99c-4ff6-a073-d784f487911c">
+    <name>НазначениеПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Assign indicator</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначенияПоказателейРасчетаЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.НазначенияПоказателейРасчетаЗарплаты.EnumValue.ДляСотрудника</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

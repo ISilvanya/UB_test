@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42066fb5-ccdc-46df-bfc8-677686b5cab1">
+  <name>УБ_Плюс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плюс (УБ)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Plus (УБ)</value>
+  </synonym>
+</mdclass:CommonPicture>

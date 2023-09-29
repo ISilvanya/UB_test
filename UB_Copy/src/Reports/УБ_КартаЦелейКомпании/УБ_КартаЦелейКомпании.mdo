@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee42fa61-6b80-4643-abb8-8543f2b0f7a0">
+  <producedTypes>
+    <objectType typeId="c9dbe85c-a9f8-41ad-a9cf-9cf8d784a975" valueTypeId="841eb727-5a64-4662-8b90-98e52a49e6c1"/>
+    <managerType typeId="ed640d50-a137-45fd-b658-565d53cec679" valueTypeId="9292262e-770b-457e-b171-1660555f44bc"/>
+  </producedTypes>
+  <name>УБ_КартаЦелейКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта целей компании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УБ_КартаЦелейКомпании.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Карта целей компании</value>
+  </extendedPresentation>
+  <attributes uuid="ea345216-6b21-422d-a83e-33b0d8b20f94">
+    <name>Глубина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="97767b66-19af-40b8-9d5d-04fa22b0d453">
+    <name>ДатаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="461bc9be-c655-4259-93d7-e7ab59434e41">
+    <name>ДетализироватьДоСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализировать до сотрудников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2986abd5-f192-4e3e-a761-866274ca4cd3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6f4641e2-40e4-4f6f-b6ba-4b0218a796b0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="aa508b90-ff66-46e0-8d00-59caa7a24dda">
+    <name>ПФ_MXL_КартаЦелейКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта целей компании</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b40d0ea-f38d-429c-ba79-fd023a692ae3">
+  <producedTypes>
+    <selectionType typeId="d497486e-87c8-44ed-8c14-78c697750cd5" valueTypeId="3897962e-aaab-45ca-86ef-98876d1f9a82"/>
+    <listType typeId="e5770acb-e892-46af-9393-950eb2b3e467" valueTypeId="72a92d0b-3eb7-4645-b5c2-d18f3a643c35"/>
+    <managerType typeId="750d25bb-52d2-429f-a64d-76cdb2768b4c" valueTypeId="42f153e5-0180-4e10-8ae6-29336b7266b4"/>
+    <recordSetType typeId="cfe9a7df-bd35-4d86-b5b1-13818a2ccaad" valueTypeId="41a5a306-f413-45fa-b2de-3537972f392a"/>
+    <recordKeyType typeId="d393f896-832f-452f-bc50-718988fb9637" valueTypeId="c85de441-a96f-4acb-a450-0c6de80483d9"/>
+    <recordType typeId="ec0fff16-9a55-4806-82b4-dce4c0be0ada" valueTypeId="f75b43ea-1c7a-4961-80a5-7a31c9d90348"/>
+  </producedTypes>
+  <name>УБ_КоэффициентыРаспределенияБезокладнойСистемыПоказателейВакантныхПозиций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты распределения безокладной системы показателей вакантных позиций (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="00eff46f-380b-44f9-b7e3-cc947c63ab63">
+    <name>ЗначениеКоэффициента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c3a91cd0-e417-4001-be5e-551e467144a5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5d9d1d0d-c7c5-41a4-904f-c9767c1c13aa">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a642f806-a9e5-4b0b-af75-d130e9476190">
+    <name>ШтатноеРасписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штатное расписание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

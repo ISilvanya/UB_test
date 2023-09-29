@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9627180d-d867-44e6-9ef2-28eddf8a0499">
+  <name>УБ_ФормаГраницыНормыЭффективностиПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма границы нормы эффективности показателей</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

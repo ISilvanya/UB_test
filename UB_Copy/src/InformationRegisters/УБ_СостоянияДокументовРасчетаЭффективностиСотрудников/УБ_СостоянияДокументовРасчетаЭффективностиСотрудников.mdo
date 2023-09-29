@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd26da7c-9f4d-447c-aeed-fe0f37bb2e02">
+  <producedTypes>
+    <selectionType typeId="10b5bcac-5ef2-45f1-822d-1dff926b5948" valueTypeId="039395c1-c682-42b3-a7fb-a88adc4b9f30"/>
+    <listType typeId="1b2dfa14-0b4c-4b0b-bbe0-ae609ea62b6a" valueTypeId="62471b59-4ef8-439a-9510-b762a4f25c8a"/>
+    <managerType typeId="674d40e4-6686-4d9a-9c75-cb2bf004ff38" valueTypeId="de43930f-3221-425c-8a9e-d2fb7fc35b39"/>
+    <recordSetType typeId="a35b740d-c279-4e10-bf9f-98944f3be04a" valueTypeId="e45e9de0-9345-4a27-b3ef-bac4979b33cc"/>
+    <recordKeyType typeId="b0bfd70b-d003-4a07-bf01-e49087488df1" valueTypeId="555587ce-a991-442c-8a38-9f1bd872bc5c"/>
+    <recordType typeId="360f8d0b-1960-415d-a5cb-016eb649c0c4" valueTypeId="915acc9b-51ca-485f-8f2c-69af31b835ba"/>
+    <recordManagerType typeId="de97ef0a-451d-4cdd-bc70-b2b12ca91a62" valueTypeId="83d367e5-a23e-4105-9f8c-9e455e01967d"/>
+  </producedTypes>
+  <name>УБ_СостоянияДокументовРасчетаЭффективностиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния документов расчета эффективности сотрудников (УБ)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояния документов расчета эффективности сотрудников</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Состояния документов расчета эффективности сотрудников</value>
+  </extendedListPresentation>
+  <resources uuid="c6104e2e-9f0f-4b4f-9cec-5b6c7c085a6c">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="ee5e0713-b5c7-40cc-b924-df475189d27b">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="3fdd6263-f159-460c-b02f-2109462d8481">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="7b633902-971a-40a6-bfd5-5a1850c8bd91">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95ebbe29-bde5-447d-8ee1-e3b788408bca">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9970e541-eb9c-4ce1-aa15-6e14167d6ac4">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_СостоянияДокументовРасчетаЭффективностиСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bf06c3aa-6f29-45aa-977e-bcf02cfff0c0">
+    <name>РасчетЭффективностиСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет эффективности сотрудника</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УБ_РасчетЭффективностиСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

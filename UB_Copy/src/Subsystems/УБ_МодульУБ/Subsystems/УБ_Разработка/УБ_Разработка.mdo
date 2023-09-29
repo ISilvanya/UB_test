@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33bcb226-13b2-4c35-b5a9-362679eeae62">
+  <name>УБ_Разработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ разработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.УБ_МодульУБ</parentSubsystem>
+</mdclass:Subsystem>

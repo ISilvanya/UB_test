@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a880c8-3be3-4960-82c8-de71482f5f3e">
+  <name>УБ_ЧтениеНазначенныхРуководителейПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение назначенных руководителей подразделений (УБ)</value>
+  </synonym>
+</mdclass:Role>

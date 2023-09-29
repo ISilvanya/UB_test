@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26f38b3a-974d-4d28-8ebb-d8fee393e4f9">
+  <producedTypes>
+    <refType typeId="5bfe009d-25ff-4c68-8edf-c0798720dc07" valueTypeId="b68debe4-e22e-45d4-b652-be7d8e7bc93f"/>
+    <listType typeId="10bb4e10-a778-442e-b8bf-ee6b5c479862" valueTypeId="ec0882ac-0737-4230-878e-3582f97e81f4"/>
+    <managerType typeId="8ba2cbc4-fdcd-4559-99c6-42ea20d36b7e" valueTypeId="37350e74-4d78-49c2-a76f-7a1b1de3d8fc"/>
+  </producedTypes>
+  <name>УБ_ВариантыРасчетаЗначенийПоказателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты расчета значений показателя (УБ)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Варианты расчета значений показателя</value>
+  </listPresentation>
+  <enumValues uuid="86322fd9-dfed-4883-9991-4a723d862d8f">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную в документе &quot;Расчет эффективности&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92e5c5a9-c547-47c5-bedd-ab9b721e4fb1">
+    <name>ИзМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из документа &quot;Утверждение модели материальной мотивации&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9087fad1-09ed-422b-9df6-39091cb9f182">
+    <name>ИзСхемыПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из схемы показателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2e96a4c-4de1-4bcd-85ef-1b704db4c273">
+    <name>ИзДокументаПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из документа &quot;Планирование показателей&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eeb2c852-786f-428a-8555-130fd7d75ca0">
+    <name>ИзДокументаУстановкиФакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из документа &quot;Установка факта показателей&quot;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

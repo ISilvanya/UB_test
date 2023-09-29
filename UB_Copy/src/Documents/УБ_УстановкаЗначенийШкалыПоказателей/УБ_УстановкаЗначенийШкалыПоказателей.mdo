@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a80cb7f-3d6e-4b82-9357-2eeab278c045">
+  <producedTypes>
+    <objectType typeId="072db312-8873-427b-aa05-e1f0bd8b7015" valueTypeId="4cdac00f-adb1-4759-83ff-23085f4f66c4"/>
+    <refType typeId="64da708b-718e-4b16-b72c-8055187e86b7" valueTypeId="b1e612e3-0589-4bb1-a3a2-5cf3755874e6"/>
+    <selectionType typeId="08d17cb0-7193-4789-913a-5c13f689cb35" valueTypeId="191ab482-9ae8-4670-9561-8d2f643e5a16"/>
+    <listType typeId="e56275c7-b830-4b6b-b540-5365a8a26363" valueTypeId="93b52c87-5842-4b44-814a-e56e5a95a759"/>
+    <managerType typeId="a9e1995f-7f80-48b2-88b9-c9772698f85e" valueTypeId="841fa1b8-84be-4493-9f20-3ed6fef73b78"/>
+  </producedTypes>
+  <name>УБ_УстановкаЗначенийШкалыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка значений шкалы показателей (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УБ_УстановкаЗначенийШкалыПоказателей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Установка значений шкалы показателей</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Значения шкалы показателей</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УБ_УстановкаЗначенийШкалыПоказателей.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УБ_УстановкаЗначенийШкалыПоказателей.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.УБ_ЗначенияШкалыПоказателей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0afc60fe-31c7-4ef6-9e78-b11f066713b3">
+    <name>ШкалаПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала показателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec4cfadc-5265-409d-8146-eabcc9f11ca9">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da393a41-ddc4-4af1-8890-1aaae8da638a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="37567093-3b6b-4170-8898-dc1a4a5494d7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96c0da72-0498-45be-9536-d2ab6ebeaa00">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="59766a34-ce05-44a0-9d52-4ea43a030c6e">
+    <producedTypes>
+      <objectType typeId="2566a394-f996-44e0-9ef4-680328896969" valueTypeId="ec1f808d-b291-45b0-ab7c-130b9639057a"/>
+      <rowType typeId="fa9b3b84-9f39-44f2-af86-48838071b000" valueTypeId="eec7a2ef-4c7f-4444-a3ba-c4c5b2118c8d"/>
+    </producedTypes>
+    <name>ЗначенияШкалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения шкалы</value>
+    </synonym>
+    <attributes uuid="acbaf7bb-d903-4d67-b476-b051e24d5c6d">
+      <name>НижняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e8438702-9fe7-4d7f-bed6-fb6168972c27">
+      <name>ВерхняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верхняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6d45b9f-2a55-4423-9d71-67df8c63ba8f">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент выполнения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9a5d476d-23c9-40dd-a058-8914ec92ff62">
+      <name>Расценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="20b885de-fc29-4028-b655-b0494c90c27d">
+    <producedTypes>
+      <objectType typeId="27a81d0e-bd0c-40f2-909e-89f7b2ea1fc3" valueTypeId="777f2714-f487-4eb7-9ab2-c3396ae78e07"/>
+      <rowType typeId="efc140a3-85aa-470c-bf59-981ed4c00cd2" valueTypeId="7530d589-af2f-4bbe-99fd-6e4c482bfeb0"/>
+    </producedTypes>
+    <name>ПропорциональныеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорциональные значения</value>
+    </synonym>
+    <attributes uuid="895a1c75-4ad6-40ad-aea2-92a6626cb5cd">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1ac4a91-2093-4703-9fe7-0fce3fddc6be">
+      <name>Процент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

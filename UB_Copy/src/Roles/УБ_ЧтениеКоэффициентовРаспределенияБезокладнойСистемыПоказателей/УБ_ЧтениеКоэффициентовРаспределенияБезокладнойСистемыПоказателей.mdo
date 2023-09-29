@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1402ec9e-80b9-49de-91b5-d459b8493702">
+  <name>УБ_ЧтениеКоэффициентовРаспределенияБезокладнойСистемыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение коэффициентов распределения безокладной системы показателей (УБ)</value>
+  </synonym>
+</mdclass:Role>

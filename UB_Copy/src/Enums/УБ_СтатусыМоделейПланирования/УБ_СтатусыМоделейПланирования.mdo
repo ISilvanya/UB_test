@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="862fb782-accd-47e3-b54c-01a6824255c3">
+  <producedTypes>
+    <refType typeId="b33eafc4-227e-468e-b11e-0f0f0373a8eb" valueTypeId="d3258e4c-001d-4d4a-8e1e-2427078032f3"/>
+    <listType typeId="e0c9ee0b-8636-42d3-9c80-408b55d1fc8f" valueTypeId="d25f2566-5921-4abc-ba82-d53b6d20e4b7"/>
+    <managerType typeId="36adf6f1-a94e-437a-81f5-ea2c5dfe80fe" valueTypeId="42a05121-291e-485a-b8c0-5b43f1a6aba1"/>
+  </producedTypes>
+  <name>УБ_СтатусыМоделейПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы моделей планирования (УБ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы моделей планирования</value>
+  </listPresentation>
+  <enumValues uuid="3f6ae2f4-19c9-465d-8ff7-df6b10bf496e">
+    <name>Планируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81d90319-fa08-4e41-8d0c-e977a82cf60d">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15e61670-8e84-475c-9b9e-508fea93f3b3">
+    <name>Неактуальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неактуальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29b81e9f-32af-4cab-85b1-95a07082d778">
+    <name>Закрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыто</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

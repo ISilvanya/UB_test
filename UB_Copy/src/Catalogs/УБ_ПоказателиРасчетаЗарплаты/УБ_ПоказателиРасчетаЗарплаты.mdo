@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0af45f5-9aeb-42ce-bab5-c8609141459c">
+  <producedTypes>
+    <objectType typeId="e8233912-83a6-420b-ae7a-6645b96290ca" valueTypeId="bcac1612-c5f6-4f23-90e6-e9c15bd873a8"/>
+    <refType typeId="b8f54296-c19b-4ea1-8219-58b60c6c4f6d" valueTypeId="eb5e8863-5c5d-4a94-bf9a-9e5b790264fa"/>
+    <selectionType typeId="09f52a23-4b1b-4595-9b19-a220df360a43" valueTypeId="b0bd1125-de20-43ce-86d4-da2047fbf940"/>
+    <listType typeId="9c72dc1d-4972-48eb-a391-3722a9dd065b" valueTypeId="e66cc620-caad-4a6a-9891-dab9c034ca97"/>
+    <managerType typeId="30482ab7-ddee-4693-a781-ad5d01b9120f" valueTypeId="053397bb-c8ff-45d2-8724-da439ee6a41d"/>
+  </producedTypes>
+  <name>УБ_ПоказателиРасчетаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели расчета зарплаты (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_ПоказателиРасчетаЗарплаты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Показатель</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Показатель расчета зарплаты</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Показатели расчета зарплаты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_ПоказателиРасчетаЗарплаты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБ_ПоказателиРасчетаЗарплаты.Form.ФормаСписка</defaultListForm>
+  <forms uuid="9fba486e-aa26-4c47-a8c5-c67b0589f455">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2cc0dc2e-815c-4754-b40d-66c88aa20e97">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

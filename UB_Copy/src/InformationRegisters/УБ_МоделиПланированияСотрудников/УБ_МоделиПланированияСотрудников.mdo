@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="444582b4-7485-45db-b076-786621b812d6">
+  <producedTypes>
+    <selectionType typeId="6e959ce2-7132-4490-833c-64cdabc3c423" valueTypeId="c050e93d-b2b6-4803-8870-23d0c9ec9226"/>
+    <listType typeId="87da765e-d6b7-4e8f-b6c3-d3b4bc9871cf" valueTypeId="1d311aa3-62d1-47d6-b718-e8a921871d7a"/>
+    <managerType typeId="05f69bd3-39ec-41df-be17-ba9dc98903ce" valueTypeId="0df33fae-3078-400f-b249-ff5868c1edf7"/>
+    <recordSetType typeId="92c4ba4c-0272-4579-b444-a4f86c86f959" valueTypeId="f589bd8a-6475-4720-b427-f448a36e5dcf"/>
+    <recordKeyType typeId="a11063f4-0716-48b1-bc36-a96accc2b246" valueTypeId="355cbf23-9e88-4a7a-9410-8768d2142e50"/>
+    <recordType typeId="83dabc56-0a47-461b-bdc2-f17fecc47e60" valueTypeId="f47a1fa3-f223-4643-a453-99e236346c81"/>
+    <recordManagerType typeId="c16ba406-103a-45f0-b882-63fa082dd534" valueTypeId="c8785674-2a1a-4b34-8731-5e3805ba1ad3"/>
+  </producedTypes>
+  <name>УБ_МоделиПланированияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели планирования сотрудников (УБ)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модели планирования сотрудников</value>
+  </listPresentation>
+  <resources uuid="b6ae208d-677e-47a8-8f6d-859a37f0a635">
+    <name>МодельПланированияЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="392c2602-bd6e-4f4b-b0f8-908e2776ab23">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд (категория)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="565da12f-c880-4ce7-8f9b-8f955f9c8b90">
+    <name>ВидСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="da96b726-a7d3-4fda-818e-5c04edd95f43">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3e0cb037-a822-4a87-b639-964242fa9703">
+    <name>КадровыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КадровыйПереводСписком</types>
+      <types>DocumentRef.ПриемНаРаботуСписком</types>
+      <types>DocumentRef.КадровыйПеревод</types>
+      <types>DocumentRef.УБ_НазначениеНаДолжность</types>
+      <types>DocumentRef.УБ_ПереводНаДолжность</types>
+      <types>DocumentRef.ПриемНаРаботу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

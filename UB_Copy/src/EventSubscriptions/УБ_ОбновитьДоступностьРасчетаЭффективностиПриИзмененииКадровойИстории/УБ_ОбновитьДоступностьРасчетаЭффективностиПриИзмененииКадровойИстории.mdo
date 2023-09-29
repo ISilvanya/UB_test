@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27101a36-bef1-44ca-8129-7e28d7165a35">
+  <name>УБ_ОбновитьДоступностьРасчетаЭффективностиПриИзмененииКадровойИстории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить доступность расчета эффективности при изменении кадровой истории (УБ)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.УБ_КадроваяИсторияСотрудников</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УБ_ДоступностьРасчетаЭффективностиСотрудниковДляПользователей.УБ_ОбновитьДоступностьРасчетаЭффективностиПриИзмененииКадровойИстории</handler>
+</mdclass:EventSubscription>

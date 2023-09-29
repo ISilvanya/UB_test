@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e579e9a0-947a-4869-87e2-9aa77d6fcd9a">
+  <name>УБ_ИспользованиеОтчетаПроверкаСостоянияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета &quot;Проверка состояния сотрудников&quot; (УБ)</value>
+  </synonym>
+</mdclass:Role>

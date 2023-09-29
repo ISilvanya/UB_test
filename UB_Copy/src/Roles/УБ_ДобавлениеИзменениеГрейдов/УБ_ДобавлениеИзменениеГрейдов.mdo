@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1231b90-11b1-4ac2-b1e3-44a81eea370a">
+  <name>УБ_ДобавлениеИзменениеГрейдов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение грейдов (УБ)</value>
+  </synonym>
+</mdclass:Role>

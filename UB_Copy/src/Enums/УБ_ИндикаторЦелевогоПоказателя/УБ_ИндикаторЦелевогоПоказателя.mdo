@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62020952-4b79-4641-a5cf-3e9ee8009e36">
+  <producedTypes>
+    <refType typeId="957f473a-b40f-49cb-83e5-12bd1940d2ed" valueTypeId="e0ef9f90-9a5a-4f79-83e6-97f7a93acbd5"/>
+    <listType typeId="219ffc6f-aa4b-4e21-96ae-2bb59a0308aa" valueTypeId="66d92cee-c101-4cd8-a2ce-1adbf2c87845"/>
+    <managerType typeId="93e04f09-92b1-4968-a9df-9bb539d01e51" valueTypeId="ad8cb10c-5966-4db5-834c-1038b0ac9551"/>
+  </producedTypes>
+  <name>УБ_ИндикаторЦелевогоПоказателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индикатор целевого показателя</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49d81782-c46b-49a1-8ccf-4b2015e98043">
+    <name>Целевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4d25034-6ce7-4d39-8915-287d4636e067">
+    <name>Результирующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результирующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="561ce742-df53-4138-af91-985dc2745c90">
+    <name>Опережающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опережающий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

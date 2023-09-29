@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfa28947-f6a7-42cd-809a-b3d0cd884516">
+  <producedTypes>
+    <selectionType typeId="70bec982-5852-4b1a-8a5e-01826cf2d173" valueTypeId="327db94b-5fc2-447f-801a-23428a234219"/>
+    <listType typeId="c05e2bfb-609f-4063-8908-2cf44e5a91cb" valueTypeId="cc6c67a9-56f3-4a6e-9939-296f9cfcccf1"/>
+    <managerType typeId="780e3ab4-09e3-404b-bf84-eeabf385cd46" valueTypeId="1f69f019-40c4-48ba-8069-41dcdbfa8256"/>
+    <recordSetType typeId="cc043d3d-2e1f-4dd4-a22c-bb6b9276b274" valueTypeId="8bfea331-462c-4afb-a708-9969badef079"/>
+    <recordKeyType typeId="822921ab-19a6-466e-afd2-db6660a97392" valueTypeId="8c9ae692-d78e-42b3-a075-858697a939c1"/>
+    <recordType typeId="f7821adc-f781-4471-acf7-d2f5b810c386" valueTypeId="3f86c0b8-28e1-42ee-89e1-d37373665113"/>
+    <recordManagerType typeId="09325163-2b35-4b1d-9b86-02e0a841d30e" valueTypeId="51388c58-5e85-444b-bffc-ad1e953dbeeb"/>
+  </producedTypes>
+  <name>УБ_СмартЗадачиМоделейПланированияЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMART-задачи моделей планирования эффективности (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>SMART-задачи моделей планирования эффективности</value>
+  </listPresentation>
+  <resources uuid="8008e423-b93b-4a7f-8610-290f63aaf775">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="016db7dd-a1b4-4fff-aeee-6a4e3fe1d9bb">
+    <name>МодельПланированияЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9352627f-db28-4127-aca2-764663d327b3">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eafbed58-123c-4b27-81c0-d8024036725c">
+    <name>СмартЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMART-задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_СмартЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

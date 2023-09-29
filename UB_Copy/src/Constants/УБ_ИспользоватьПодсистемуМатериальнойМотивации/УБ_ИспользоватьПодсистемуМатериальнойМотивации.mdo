@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fab9d24-d878-4a5a-bed3-87f5d515ec87">
+  <producedTypes>
+    <managerType typeId="760c1a92-b7ca-4473-82cf-b96d55af0735" valueTypeId="8000900c-1ac1-4944-9e11-b79d6ed27192"/>
+    <valueManagerType typeId="a763b42b-68e5-44c7-96f1-e3e0498023ae" valueTypeId="2b8404f4-04f4-4987-86cd-410b81790c37"/>
+    <valueKeyType typeId="d21436e8-9e26-4e9d-9662-dfd2b12f01d9" valueTypeId="b10f563b-d196-43db-9ac1-4e3b82d434bb"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьПодсистемуМатериальнойМотивации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему материальной мотивации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

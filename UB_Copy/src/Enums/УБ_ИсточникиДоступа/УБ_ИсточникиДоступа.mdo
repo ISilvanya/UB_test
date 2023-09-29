@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d99b033-441d-49dc-895e-073b83f57106">
+  <producedTypes>
+    <refType typeId="039cea09-750d-4744-91dc-c9e0594cd849" valueTypeId="01a1c099-9b8d-4f90-93f9-0247a20f11b4"/>
+    <listType typeId="2ff9e13d-d630-4fdf-ae1a-60d53a0add2a" valueTypeId="6b06a418-4e1c-4ca3-9b11-e95bd4f97ac7"/>
+    <managerType typeId="305189ef-c307-4b7b-ab87-2bec61d6e1f2" valueTypeId="668ca58e-5061-48ff-94d6-36317f1acb48"/>
+  </producedTypes>
+  <name>УБ_ИсточникиДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники доступа (УБ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bfae7a6c-d4db-44f2-9b1e-a359145359a6">
+    <name>Делегирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делегирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b700303-202b-4fc8-bf50-e21c510cab49">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c90119b3-e21d-4a26-bad4-ff7328e371da">
+    <name>ПрямоеУказаниеСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямое указание сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecca61ac-53f3-474b-b2a5-381f8f9501a5">
+    <name>СотрудникПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник подразделения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb18604f-057d-4037-8387-0d1cec00a2d2">
+    <name>ПрямоеУказаниеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямое указание пользователя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

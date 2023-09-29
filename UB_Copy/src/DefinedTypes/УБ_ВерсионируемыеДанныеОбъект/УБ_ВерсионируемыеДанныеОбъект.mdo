@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="476d4582-1b13-4cdf-8ced-f56bd2440649">
+  <producedTypes>
+    <containerType typeId="4c838e40-61d8-48c2-a649-e3b9a1a69bcb" valueTypeId="7f4400c9-01aa-43e4-9dda-27cedcc8a244"/>
+  </producedTypes>
+  <name>УБ_ВерсионируемыеДанныеОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные объект (УБ)</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.УБ_Грейды</types>
+    <types>CatalogObject.УБ_ШкалыОценок</types>
+    <types>CatalogObject.УБ_ВидыОценок</types>
+    <types>CatalogObject.УдалитьУБ_ПринадлежностьПоказателей</types>
+    <types>CatalogObject.УБ_МоделиПланированияЭффективности</types>
+    <types>CatalogObject.УБ_ПричиныОтсутствия</types>
+    <types>CatalogObject.УБ_СмартЗадачи</types>
+    <types>CatalogObject.УБ_ШкалыПоказателей</types>
+    <types>CatalogObject.УБ_Должности</types>
+    <types>CatalogObject.УБ_ШтатноеРасписание</types>
+    <types>CatalogObject.УБ_Подразделения</types>
+    <types>CatalogObject.УБ_Сотрудники</types>
+    <types>CatalogObject.УБ_Стандарты</types>
+    <types>CatalogObject.УБ_ПерспективыССП</types>
+    <types>CatalogObject.УБ_ВерсииГрейдов</types>
+    <types>CatalogObject.УБ_ТипыПоказателей</types>
+    <types>CatalogObject.УБ_ПоказателиЭффективности</types>
+    <types>CatalogObject.УБ_ПоказателиРасчетаЗарплаты</types>
+    <types>CatalogObject.УБ_ГоризонтыПланирования</types>
+  </type>
+</mdclass:DefinedType>

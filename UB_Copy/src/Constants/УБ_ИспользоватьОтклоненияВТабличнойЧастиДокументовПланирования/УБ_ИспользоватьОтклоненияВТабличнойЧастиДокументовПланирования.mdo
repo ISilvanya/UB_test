@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6470de9-d333-4ea5-abdf-62cae724de99">
+  <producedTypes>
+    <managerType typeId="79697f05-c3a3-4245-8934-1b79de4f84de" valueTypeId="18a7018f-3f32-421e-9f82-d66cacac5762"/>
+    <valueManagerType typeId="61a438c3-aa51-4a0b-a419-b9d5bf4965c4" valueTypeId="9219b9bd-d49d-478c-af80-5312a3d9fa82"/>
+    <valueKeyType typeId="f8fd240e-946f-4877-9954-46fa22895030" valueTypeId="892c0d26-530a-401e-a108-39391bd785aa"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьОтклоненияВТабличнойЧастиДокументовПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отклонения в табличной части документов планирования</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

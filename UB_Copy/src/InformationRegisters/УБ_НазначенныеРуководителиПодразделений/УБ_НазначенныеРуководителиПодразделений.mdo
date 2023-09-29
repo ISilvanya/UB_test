@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fe85365-ef96-494c-ab8a-75de70b2d8dd">
+  <producedTypes>
+    <selectionType typeId="d2922886-2c77-4e02-81b2-f7f11454d834" valueTypeId="a595fabe-6629-4fdc-8ab7-4ea22b0d6dc6"/>
+    <listType typeId="c45d0e6b-27fe-42dc-b9c8-b0fa9a2c8b4e" valueTypeId="d9b6a380-9a46-4880-ba36-6cb0a2697977"/>
+    <managerType typeId="c8bb0a4d-5bc7-45d4-b11d-ba2285f2f231" valueTypeId="38064fb4-3de4-4a08-8313-11b02e4f172e"/>
+    <recordSetType typeId="896e5814-2ca9-44d0-82de-f8436ec24b77" valueTypeId="9aabe6cf-15d5-4c41-a76f-9cd7c76e4585"/>
+    <recordKeyType typeId="8baa318f-897a-4ce3-8d46-4dd8bc6a0512" valueTypeId="18115255-471e-4f13-a26a-f029c2a3392b"/>
+    <recordType typeId="4eaabea7-4763-4b5e-a974-cfed42218886" valueTypeId="282b3cc1-7f57-4cde-a193-abaf65d49dc8"/>
+    <recordManagerType typeId="94e1b9fc-79f6-4258-9789-58bd7b904a03" valueTypeId="3b33635b-de32-4331-87f0-bae8e5fee38b"/>
+  </producedTypes>
+  <name>УБ_НазначенныеРуководителиПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначенные руководители подразделений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Назначенные руководители подразделений (УБ)</value>
+  </listPresentation>
+  <resources uuid="c773b8ea-e3de-4b11-aa92-f6b37ef1f8b3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b257294b-5761-4150-a01e-66976c243504">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="121826d3-70ae-4e25-a3a2-d5c165520a0e">
+    <name>ДатаОтстранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отстранения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5dd8d6f5-0b95-4e47-a321-6d8f62536fe6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9db1126-c612-4ac4-a5bc-515eca3e58de">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

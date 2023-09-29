@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc670986-0b24-4cbc-9a21-782884a8abf1">
+  <producedTypes>
+    <containerType typeId="f0b18751-106f-4615-ab40-b32fa1925d62" valueTypeId="80fe46f8-0329-47ea-a5f9-0af4403028c9"/>
+  </producedTypes>
+  <name>УБ_Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УБ_Подразделения</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+  </type>
+</mdclass:DefinedType>

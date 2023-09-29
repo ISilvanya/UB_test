@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="108ba7d7-d7f1-4348-ab34-4a2cb9848342">
+  <name>УБ_ДобавлениеИзменениеКадровыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение кадровых документов (УБ)</value>
+  </synonym>
+</mdclass:Role>

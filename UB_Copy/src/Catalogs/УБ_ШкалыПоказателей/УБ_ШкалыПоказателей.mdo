@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69bb7138-c0cb-4261-a3c4-8fac01df2819">
+  <producedTypes>
+    <objectType typeId="7209a91c-20b1-4d32-a418-19321c2ae6ad" valueTypeId="c2b99f44-72a5-452e-9c12-1bff9be2c84d"/>
+    <refType typeId="206edf28-c8d4-40d5-9075-a1f8b0a7434d" valueTypeId="5e8378a7-b41d-4dc3-afaf-4814c79f4232"/>
+    <selectionType typeId="d90e96d7-1369-4f71-a71d-be29b8c7204d" valueTypeId="d5eb07a4-1b77-4d41-b7e7-01f4a1c02acd"/>
+    <listType typeId="b46fa14b-7fba-4cbe-8144-85badc4bc41d" valueTypeId="f8c846cc-26a3-4fcd-ad8f-fada385df399"/>
+    <managerType typeId="60ef4ffb-5ea1-4f70-94d0-f8f16c6bcb79" valueTypeId="a0e41c10-7a5d-4437-b546-49264495584f"/>
+  </producedTypes>
+  <name>УБ_ШкалыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкалы показателей (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_ШкалыПоказателей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_ШкалыПоказателей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шкала показателей</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шкалы показателей</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_ШкалыПоказателей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБ_ШкалыПоказателей.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1bdccd67-0f39-4a0b-8e15-4bcc6b7732ba">
+    <name>ПоказательЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ТипыПоказателей</types>
+      <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="56379b6f-b906-42bf-a604-9560d4bf31eb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d87631d-193a-4572-b0cb-c5d352d05053">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93b7fb06-c0c5-4173-a332-78a02590c0eb">
+  <name>УБ_БизнесПроцессыИЗадачиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес процессы и задачи сервер (УБ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

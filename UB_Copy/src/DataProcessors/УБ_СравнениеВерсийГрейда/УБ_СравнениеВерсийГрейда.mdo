@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad61b87-0a58-4ad5-b784-89677c5cf8ae">
+  <producedTypes>
+    <objectType typeId="901fdadd-4d99-49b8-a6dd-993aeb3ac012" valueTypeId="558e1d39-01cd-45d3-8cac-c12d9d57f8a4"/>
+    <managerType typeId="06df5638-6e35-4ede-91f4-fdbdf4242f6f" valueTypeId="2fc2f6d3-9529-4187-bf4a-343653519aec"/>
+  </producedTypes>
+  <name>УБ_СравнениеВерсийГрейда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение версий грейда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УБ_СравнениеВерсийГрейда.Form.ОтчетПоВерсиямГрейда</defaultForm>
+  <forms uuid="175992c9-5ec2-49af-b997-32835a7a6e1d">
+    <name>ОтчетПоВерсиямГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по версиям грейда</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ef021735-d575-479a-9cce-751088469ca4">
+    <name>ПФ_MXL_СравнениеВерсийГрейдов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cравнение версий грейдов</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

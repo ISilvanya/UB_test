@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e90de7bf-548d-42ab-a377-7cae6f188a94">
+  <name>удалитьУБ_ФормаВыбораШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора штатного расписания (УБ, удалить)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

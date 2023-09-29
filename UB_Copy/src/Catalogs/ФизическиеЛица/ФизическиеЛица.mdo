@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="855d13d4-779d-4588-bea6-2037ddbff29f">
+  <producedTypes>
+    <objectType typeId="ef69aab0-bf0e-45d2-b9c7-c32128cca521" valueTypeId="a7a36767-5064-4c35-bbe0-de2fcf039466"/>
+    <refType typeId="d9a303a4-07e8-4612-a359-956d43f10bae" valueTypeId="a33ae3d1-6a78-489d-975f-04ac038fa176"/>
+    <selectionType typeId="997edf15-c691-4880-b028-b9717184c79d" valueTypeId="838754aa-a018-4f79-85cb-70c840b98fab"/>
+    <listType typeId="36e50a97-afa8-4248-b683-6d43feb29174" valueTypeId="a6350fb6-e7a0-4263-8ddc-0feed528bd82"/>
+    <managerType typeId="92df6431-628f-476e-b7a3-c3e873e471a4" valueTypeId="652a286a-22ad-4764-8bd6-7f82c1c2b220"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Individuals</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Физическое лицо</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Individual</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ФизическиеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="b053a215-f4e4-444b-8099-9126e48f3f62">
+    <name>УточнениеНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнение наименования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f820f2e1-bfc7-4688-999a-98676ba43ce1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

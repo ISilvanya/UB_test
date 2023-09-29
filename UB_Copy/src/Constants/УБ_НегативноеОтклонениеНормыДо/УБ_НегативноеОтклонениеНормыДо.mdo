@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="845432f9-55bb-4e7a-9f89-aa2dbb8631fe">
+  <producedTypes>
+    <managerType typeId="8f601590-88ed-4a03-8b81-16fabf82b7b0" valueTypeId="46623862-a219-466f-9d82-8bd948959c25"/>
+    <valueManagerType typeId="af40b7b6-98bd-42e5-af2e-35b3be8d2f39" valueTypeId="e2418a14-7dee-4922-b686-1d64eb9c50a6"/>
+    <valueKeyType typeId="17364bd2-a39e-43f0-9435-569eb91a06bd" valueTypeId="99705045-c969-4016-9c3b-5e27704f732c"/>
+  </producedTypes>
+  <name>УБ_НегативноеОтклонениеНормыДо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Негативное отклонение (красная зона,%) от</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

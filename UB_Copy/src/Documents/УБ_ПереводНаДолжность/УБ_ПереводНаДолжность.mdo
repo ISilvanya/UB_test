@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be53f723-36d7-462c-b937-352060bce1a2">
+  <producedTypes>
+    <objectType typeId="de3a40f3-8a55-49f5-89d3-4f14a9927d6d" valueTypeId="18c00dda-3784-4bc7-9b27-a733516fbae7"/>
+    <refType typeId="d8da9ee7-7991-4c4e-bf2d-11a41d0527c0" valueTypeId="19c89204-aa74-4ce4-a6eb-aae30d49fe56"/>
+    <selectionType typeId="ae40a39e-6770-497c-bc4c-da6d3d11f5a4" valueTypeId="7b5e2f9f-6dc3-4203-ba53-86dbacc755c6"/>
+    <listType typeId="95374f2c-30d3-4da4-9f32-9ef6dfe2f16b" valueTypeId="da752cbc-0849-42d0-adbe-12a14c052d22"/>
+    <managerType typeId="b51f1de3-302a-4920-b80a-0e9b28e43f8f" valueTypeId="1956b4a5-5720-4918-9faf-1fc964a9ca4a"/>
+  </producedTypes>
+  <name>УБ_ПереводНаДолжность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевод на должность (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УБ_ПереводНаДолжность.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Перевод на должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Переводы на должность</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УБ_ПереводНаДолжность.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УБ_ПереводНаДолжность.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.УБ_КадроваяИсторияСотрудников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4da31872-f876-4038-846d-b234b28f44b8">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.МесяцПримененияОтбора</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.ДатаПеревода</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.ТекущаяОрганизация</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5c758cd-2714-497c-bd9c-daeaeea21686">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c405f0f5-cce3-4b5a-80cd-6e2d68561777">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e5688d9-6b6a-4c6c-b209-e9f12a471c26">
+    <name>МодельПланированияЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Организация</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Подразделение</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.Подразделение</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>ДатаПримененияОтбора</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.ДатаПеревода</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fac74b31-66bc-42d3-bc6a-97760959585f">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.МодельПланированияЭффективности</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Организация</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Подразделение</name>
+      <field>Document.УБ_ПереводНаДолжность.Attribute.Подразделение</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f4534b0-7e35-43c6-8991-c2b8ececd748">
+    <name>ДатаПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата перевода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14aa8c8d-9b81-4291-ab70-560366bd3645">
+    <name>ИзменитьПодразделениеИМодельПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить подразделение и модель планирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f4b1ba04-b149-49a7-a831-8b82430231e6">
+    <name>ИзменитьГрейдСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить грейд сотрудника</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89896070-b455-4607-b4e8-1e7d8e45488b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca9c3908-2429-43a7-b7c6-9c05a668730b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6879d159-d77c-4fc3-8e09-156de8f3db54">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="495dc871-721f-408f-868b-aabe46833463">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

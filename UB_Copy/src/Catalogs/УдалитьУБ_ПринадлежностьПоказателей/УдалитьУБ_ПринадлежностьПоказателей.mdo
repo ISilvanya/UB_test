@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d83a88e-84f7-4fa3-abe1-db092a460529">
+  <producedTypes>
+    <objectType typeId="3b34216b-5b02-4ff8-9c43-dabb24ec7370" valueTypeId="c6fb88da-173a-41f5-b710-e7c0f179b82f"/>
+    <refType typeId="7e39a9f2-2e16-4871-a12d-ec93d404c41a" valueTypeId="cb323198-c62d-466c-929a-43478752cae4"/>
+    <selectionType typeId="31b24536-8dc8-4931-b1ce-64eb2faf6370" valueTypeId="81b803da-fe91-4e6a-96f2-6951cd5263cf"/>
+    <listType typeId="cdbadc20-7792-4c25-b7d4-a1c208abdc42" valueTypeId="8308a5c9-840a-4525-949c-1121424f500a"/>
+    <managerType typeId="939d369a-8014-4c96-af87-a1658dc2d41d" valueTypeId="23eb65c7-c970-49e4-8c1b-20b48646f582"/>
+  </producedTypes>
+  <name>УдалитьУБ_ПринадлежностьПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принадлежность показателей (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УдалитьУБ_ПринадлежностьПоказателей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдалитьУБ_ПринадлежностьПоказателей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Принадлежность показателей</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Принадлежность показателей</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УдалитьУБ_ПринадлежностьПоказателей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УдалитьУБ_ПринадлежностьПоказателей.Form.ФормаСписка</defaultListForm>
+  <forms uuid="8100208b-0a28-4108-bd12-8ca1b84aeaf5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b16af49-75aa-45a7-95f8-df09f9303728">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

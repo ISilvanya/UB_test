@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f883cac-617c-42f3-a92b-59edc9a7748d">
+  <producedTypes>
+    <objectType typeId="6800db13-ab6b-4658-89af-2af89866d45d" valueTypeId="b98e8f94-d049-4028-a32d-6f18478a6a13"/>
+    <refType typeId="ee8b7a7b-74ad-4fe0-bbe9-88d6e276f95f" valueTypeId="99a447ce-92de-4794-a054-ad749985dcc8"/>
+    <selectionType typeId="0d9883a3-88e3-4270-8afc-5b66987602f6" valueTypeId="9da6024e-e861-4f38-add5-1e3623896267"/>
+    <listType typeId="e8d347e4-f390-4762-a896-850ac6d2dc24" valueTypeId="efc9cd27-a83b-489c-9de9-aff0aefee7ca"/>
+    <managerType typeId="5721d895-872e-4313-b214-13cc47508e59" valueTypeId="f820b9d8-d0ba-49df-9f1e-546fd6ad3011"/>
+  </producedTypes>
+  <name>Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проекты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Проекты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="393175f4-b7a5-4df8-9296-4e8e240c0625">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за реализацию проекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

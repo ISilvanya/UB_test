@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27daaf73-eeeb-493e-a6da-37282460a67e">
+  <producedTypes>
+    <managerType typeId="8d3fcd9c-b9d4-46f8-a116-7af02737ce27" valueTypeId="ac9aa8fd-9ca8-4cbe-aa61-654e3c5d9da8"/>
+    <valueManagerType typeId="ff64e0d8-5c91-4c7f-a311-b29bd4a3a541" valueTypeId="2fa3a3f6-5873-4425-824e-28ebf110bfd3"/>
+    <valueKeyType typeId="9b5a852f-dd85-45c1-8548-630e62a74c31" valueTypeId="30763f2e-af7d-4817-be44-317b2e643d4d"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьБезокладнуюСистемуПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать безокладную систему показателей (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

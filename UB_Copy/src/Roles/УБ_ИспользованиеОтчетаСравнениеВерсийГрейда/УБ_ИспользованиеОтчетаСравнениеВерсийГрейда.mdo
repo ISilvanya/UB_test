@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb6a6256-c180-422e-983b-bf47a966fd77">
+  <name>УБ_ИспользованиеОтчетаСравнениеВерсийГрейда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета &quot;Сравнение версий грейда&quot; (УБ)</value>
+  </synonym>
+</mdclass:Role>

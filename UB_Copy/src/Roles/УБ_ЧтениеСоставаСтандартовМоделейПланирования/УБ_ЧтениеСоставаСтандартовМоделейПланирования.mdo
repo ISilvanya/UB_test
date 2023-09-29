@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb76694d-9406-43f4-8123-b2da13d8409b">
+  <name>УБ_ЧтениеСоставаСтандартовМоделейПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение состава стандартов моделей планирования (УБ)</value>
+  </synonym>
+</mdclass:Role>

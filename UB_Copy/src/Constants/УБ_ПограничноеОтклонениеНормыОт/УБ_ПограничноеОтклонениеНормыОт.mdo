@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f61ce34-cd68-430e-b4dc-2087cb1f6290">
+  <producedTypes>
+    <managerType typeId="4ce05bf7-c3a9-4f95-a681-5f87f152e424" valueTypeId="d3e52c7c-e98f-4cb9-9bf6-0e232bf6d008"/>
+    <valueManagerType typeId="114a4630-b554-4aee-aca4-1127d90b7b44" valueTypeId="f31454c7-93f8-48b6-90ef-760313351056"/>
+    <valueKeyType typeId="0ecad67c-54b8-407c-8d1e-a0e514cf22dd" valueTypeId="1b668e80-7e0c-4e9b-8940-789bade0be05"/>
+  </producedTypes>
+  <name>УБ_ПограничноеОтклонениеНормыОт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пограничное отклонение (желтая зона, %) от</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

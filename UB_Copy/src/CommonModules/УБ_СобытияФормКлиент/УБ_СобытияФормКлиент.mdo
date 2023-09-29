@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d801b030-bcab-47bf-8fd7-104dad23c5b0">
+  <name>УБ_СобытияФормКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ события форм клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

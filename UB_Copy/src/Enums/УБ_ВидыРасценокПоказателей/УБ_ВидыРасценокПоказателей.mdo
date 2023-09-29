@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ed78907-ffc4-4842-b0f6-ab41344cd314">
+  <producedTypes>
+    <refType typeId="cd573b4f-e8d1-4c97-8985-c62a991611f9" valueTypeId="c2b91f86-591d-4079-a405-b75dda5b4572"/>
+    <listType typeId="316b42eb-30cc-4158-9b41-62ce89a78cc4" valueTypeId="3af71554-dc65-40d2-857f-402d627ee77a"/>
+    <managerType typeId="f9c6e3d4-9d63-425c-b812-34ecfb1ebbec" valueTypeId="b8eeba2a-6993-4d38-b0d4-b40461dbbd17"/>
+  </producedTypes>
+  <name>УБ_ВидыРасценокПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расценок показателей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11bf37ce-4b49-4492-96b7-a9148359c238">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d61cbd6-a10d-47ff-a9cc-f9eeca097615">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24a3c0b9-b502-4fb4-914d-958b79e0feef">
+  <producedTypes>
+    <selectionType typeId="b372f7ef-4cd8-40b7-b086-c1d13a745771" valueTypeId="4c47bf55-82cf-461d-8b6f-1e86048e0449"/>
+    <listType typeId="05fe3291-0790-418c-9ce6-be3c0187a0e0" valueTypeId="59f1dddd-d283-4050-898f-30969b1f5ec9"/>
+    <managerType typeId="3f29a523-9e78-446d-8b99-27d173007e76" valueTypeId="eab8cc9c-4bc2-4c15-be5f-26a56427593f"/>
+    <recordSetType typeId="411c97eb-9ef1-49b3-ad4e-8e9b83e4d3fd" valueTypeId="1c469b0c-555b-4892-88be-0d80126b8adb"/>
+    <recordKeyType typeId="0ea08cf2-4dd5-4925-a723-8751ccfcc29b" valueTypeId="54f79b65-ebc0-4509-9423-3d029bfe7d37"/>
+    <recordType typeId="8b06f671-c82f-4a6e-b81e-debd358ccbac" valueTypeId="e6b42a46-e849-498b-a58e-5c89c660fdaf"/>
+    <recordManagerType typeId="0a988a61-418a-4a77-b0b3-9e4a875e38fe" valueTypeId="5e5ef21c-27fa-44e0-bec1-603f841fe2c8"/>
+  </producedTypes>
+  <name>УБ_ФормулыПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формулы показателей эффективности (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7343f1a4-ddde-41d0-a4f1-a5088323e1b3">
+    <name>ФормулаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула расчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="a5ffb4e8-061e-4662-af6d-196827fcefa3">
+    <name>МодельПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b750e41c-b7e9-48d1-823f-106e618c2f91">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="94a21d63-d2d6-41ec-8e84-933238f325ec">
+    <name>ПоказательЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ТипыПоказателей</types>
+      <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e2551e2a-0b66-4296-b3f9-4228229e7485">
+    <name>ВерсияГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия грейда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ВерсииГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="da84a4dc-a3d0-49a3-bc5e-f2c0b5316fb9">
+    <name>Ячейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

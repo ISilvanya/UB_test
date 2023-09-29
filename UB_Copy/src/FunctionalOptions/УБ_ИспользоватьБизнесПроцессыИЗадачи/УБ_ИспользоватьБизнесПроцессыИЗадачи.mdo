@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160eae98-14f3-4e9d-8060-95dbd5d00a97">
+  <name>УБ_ИспользоватьБизнесПроцессыИЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бизнес процессы и задачи(УБ)</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьБизнесПроцессыИЗадачи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.УБ_РолиИсполнителей</content>
+  <content>Enum.УБ_ВариантыВажностиЗадачи</content>
+  <content>ChartOfCharacteristicTypes.УБ_ОбъектыАдресацииЗадач</content>
+  <content>Enum.УБ_СостоянияПроцессовДляЗапуска</content>
+  <content>Catalog.УБ_ГруппыИсполнителейЗадач</content>
+  <content>Enum.УБ_СостоянияБизнесПроцессов</content>
+</mdclass:FunctionalOption>

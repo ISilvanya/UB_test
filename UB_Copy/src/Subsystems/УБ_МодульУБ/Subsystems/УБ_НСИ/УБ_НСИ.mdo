@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd470358-8227-4978-b6c8-dba278f3d737">
+  <name>УБ_НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УБ_ПоказателиРасчетаЗарплаты</content>
+  <content>Catalog.УБ_МоделиПланированияЭффективности</content>
+  <content>Catalog.УБ_Должности</content>
+  <content>Catalog.УБ_Подразделения</content>
+  <content>Catalog.УБ_ШкалыПоказателей</content>
+  <content>Catalog.УБ_Сотрудники</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.УБ_ШтатноеРасписание</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <subsystems>УБ_МоделиПланированияЭффективности</subsystems>
+  <subsystems>УБ_ПоказателиЭффективности</subsystems>
+  <subsystems>УБ_Стандарты</subsystems>
+  <parentSubsystem>Subsystem.УБ_МодульУБ</parentSubsystem>
+</mdclass:Subsystem>

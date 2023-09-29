@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bb7568e-eb43-4187-9b17-934e9470ae48">
+  <name>УБ_ПроведениеКадровыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение кадровых документов (УБ)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.КадровыйПереводСписком</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.УБ_НазначениеНаДолжность</types>
+    <types>DocumentObject.УБ_ПереводНаДолжность</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.УБ_КадровыйУчет.УБ_ЗаписатьМодельПланированияСотрудникаОбработкаПроведения</handler>
+</mdclass:EventSubscription>

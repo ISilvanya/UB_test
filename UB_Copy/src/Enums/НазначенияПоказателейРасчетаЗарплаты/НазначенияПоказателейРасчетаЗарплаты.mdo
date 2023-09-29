@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b97ff373-4eac-4ee2-856e-41d1e6f83fcb">
+  <producedTypes>
+    <refType typeId="485f8b52-66b7-413d-a6b5-89d14744644d" valueTypeId="01f44620-71de-4920-93b8-5e1a16983131"/>
+    <listType typeId="8797e6e5-6598-43e0-9d52-fcc790edb865" valueTypeId="dbc2d57a-3c05-4fdb-a9b3-ace50fa07028"/>
+    <managerType typeId="c1bd2429-02bc-4840-8a8f-bb439e223e25" valueTypeId="a5b8d3a9-41f4-41e4-a353-475f3ee075c0"/>
+  </producedTypes>
+  <name>НазначенияПоказателейРасчетаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения показателей расчета зарплаты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assign payroll indicators</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b598083-37eb-4137-a5c0-7526d6f0b050">
+    <name>ДляСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для сотрудника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>For employee</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cca8dd9-3193-4a8c-8df1-db591439bdc8">
+    <name>ДляПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для подразделения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>For department</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9d1e177-6ea0-4097-84f2-fbd685e04be7">
+    <name>ДляОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для организации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>For company</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

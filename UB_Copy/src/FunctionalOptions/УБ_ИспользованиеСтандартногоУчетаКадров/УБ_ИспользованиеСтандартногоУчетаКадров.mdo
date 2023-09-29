@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56d9a941-fb60-4204-a371-4937fce714fc">
+  <name>УБ_ИспользованиеСтандартногоУчетаКадров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование стандартного учета кадров</value>
+  </synonym>
+  <location>Constant.УБ_СтандартныйКадровыйУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.УБ_МодульУБ.Subsystem.УБ_Кадры</content>
+</mdclass:FunctionalOption>

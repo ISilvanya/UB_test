@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ead9bb14-469f-47fe-a296-f738bdd9e341">
+  <name>УБ_ДобавлениеИзменениеПричинОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение причин отсутствия (УБ)</value>
+  </synonym>
+</mdclass:Role>

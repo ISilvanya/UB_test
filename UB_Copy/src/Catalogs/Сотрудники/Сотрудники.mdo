@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e4f3786-87a1-4be3-b1e3-898ba0094550">
+  <producedTypes>
+    <objectType typeId="07d5fe6d-5776-47f1-ad10-f2498aa92fa2" valueTypeId="96e20c48-bfa4-4e21-a242-5bcb402c19e3"/>
+    <refType typeId="69d9967d-121d-4c41-b937-47f81d8918bd" valueTypeId="d2170151-0602-4fbd-b773-e627a6644a3c"/>
+    <selectionType typeId="4c45c0b2-4e8c-40e1-be44-3ed158612d2d" valueTypeId="ef9f6c12-2470-4713-b01e-8a10aea7b03e"/>
+    <listType typeId="3a66bed9-3b1d-4e2a-bc0d-beeb35924919" valueTypeId="de925846-052f-4375-836e-c26f7e2a689d"/>
+    <managerType typeId="ec532a3c-6609-4278-9beb-f733990104c7" valueTypeId="24a29db7-4f29-49fe-bcfc-63a4e4c004a1"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="761da286-050d-47fd-a79e-249c549db40b">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

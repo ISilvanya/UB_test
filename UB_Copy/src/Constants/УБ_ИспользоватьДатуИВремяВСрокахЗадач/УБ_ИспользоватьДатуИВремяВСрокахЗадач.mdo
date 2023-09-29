@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15c46849-db47-441d-9296-9ce730c7a8a6">
+  <producedTypes>
+    <managerType typeId="bd9bf20c-13b3-4b52-88b8-bd4af96913dd" valueTypeId="fca2f981-6213-4b3d-af88-47965ecf8191"/>
+    <valueManagerType typeId="cbe4c621-cacd-4e50-9025-fd58cbb308a4" valueTypeId="566b9130-b07e-49e3-93a6-97f4cde043bf"/>
+    <valueKeyType typeId="1e465bd8-d471-4923-bb2c-49a8531eaa3f" valueTypeId="59d2c4cd-06aa-46ab-9e94-84423eedf137"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьДатуИВремяВСрокахЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дату и время в сроках задач(УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать дату со временем в полях со сроками задач</value>
+  </extendedPresentation>
+  <toolTip>
+    <key>ru</key>
+    <value>Разрешить вводить время в датах выполнения задач</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

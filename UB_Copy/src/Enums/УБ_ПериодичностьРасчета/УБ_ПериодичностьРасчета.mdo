@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acd6fa58-0904-4cbd-8e86-cee7db0552c8">
+  <producedTypes>
+    <refType typeId="797ece44-c5fc-41b9-9d14-77164508f250" valueTypeId="a4b3af3f-7ed0-4f58-8314-3b2ab9034d6c"/>
+    <listType typeId="0440f9dd-5fbe-43df-ae1a-7b29687cd636" valueTypeId="054edb08-af36-40b2-9d5c-7a91d65e5f79"/>
+    <managerType typeId="43101bde-215e-44f9-b1f2-a553a1cc836b" valueTypeId="b7dd2c6a-41ec-4d95-8d74-f2d7578c010e"/>
+  </producedTypes>
+  <name>УБ_ПериодичностьРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность расчета (УБ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="94675396-5335-4231-91e2-705aec2e09d7">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea2bf851-0901-427a-b0c4-cdb2f863921a">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f590311c-5ef1-4022-b38f-12d38de05915">
+    <name>Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcf16a01-a050-472a-a107-945c105fefb3">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

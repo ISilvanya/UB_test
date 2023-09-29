@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="710f2298-c405-4c95-9de8-5b259798d189">
+  <producedTypes>
+    <objectType typeId="0083dc1b-fe4f-4fa5-83c1-310d50cdfc35" valueTypeId="325fbfce-9596-429c-a7aa-9b51ff1330fd"/>
+    <refType typeId="ecfb7179-5416-4490-aa3a-f07ba98c7402" valueTypeId="98b6bdb4-558e-46dd-9b99-08b3297dcd05"/>
+    <selectionType typeId="091f8787-ccd0-42fe-9fe6-131b0bc44f18" valueTypeId="4ef88971-60bf-4098-8b26-7f621d8c59eb"/>
+    <listType typeId="f880ef02-8fa0-4d67-bea2-e5f1bb98e45e" valueTypeId="8dd2687f-97de-480f-984e-5bcddfb75117"/>
+    <managerType typeId="892389be-22cc-4ec6-8372-0dbca944e536" valueTypeId="e832747b-f02b-4dd6-9f05-607290c090ad"/>
+  </producedTypes>
+  <name>УБ_Компании</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ компании (служебный)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_Компании.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_Компании.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Компания</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Компании УБ (служебный)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Компании</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9b57b4de-7c48-4bdc-b3aa-3e31702c5cf4">
+      <name>Компания</name>
+      <description>Компания</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

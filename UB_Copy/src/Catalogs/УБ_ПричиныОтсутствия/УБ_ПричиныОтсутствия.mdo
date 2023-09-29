@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0e6af9a-f899-4087-8189-0ccc40ff431e">
+  <producedTypes>
+    <objectType typeId="568735c9-bd6a-40a2-a0c2-450e63c107b1" valueTypeId="29be5062-150e-43e4-8adf-53f8975d454b"/>
+    <refType typeId="6943aa2b-6161-44b1-ba73-a6bca1be9109" valueTypeId="4e027b97-9bb0-4e58-bc7b-923410c816df"/>
+    <selectionType typeId="24bde3dd-6542-467b-963c-24422d9f1e8d" valueTypeId="5e853db8-10d5-4f7e-bd7a-629baca3d17a"/>
+    <listType typeId="e9d1ffdb-438b-425c-8e50-7263aaef82ac" valueTypeId="1f162c8a-7e11-404d-b49c-6a49cd9ae1e0"/>
+    <managerType typeId="0d6719b6-5fc6-4a11-aeb7-cef6ecedfda7" valueTypeId="cf5cc647-97a5-49ef-a046-3e2a98505eaf"/>
+  </producedTypes>
+  <name>УБ_ПричиныОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отсутствия (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_ПричиныОтсутствия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_ПричиныОтсутствия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причина отсутствия</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Причины отсутствия</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f3f2f6a7-9c6f-4616-beac-3e819288887e">
+      <name>Больничный</name>
+      <description>Больничный</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000001</value>
+      </code>
+    </items>
+    <items id="462dd9af-05a3-436f-8ec4-71c237b4976f">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000002</value>
+      </code>
+    </items>
+    <items id="deb37561-954e-4579-9163-fdeea3443774">
+      <name>Прогул</name>
+      <description>Прогул</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000003</value>
+      </code>
+    </items>
+    <items id="fc1e5236-fe17-4d5e-83d6-778e96f93532">
+      <name>СогласованноеОтсутствие</name>
+      <description>Согласованное отсутствие</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000004</value>
+      </code>
+    </items>
+    <items id="9224826a-3cb1-4551-8094-701ddebe1675">
+      <name>Увольнение</name>
+      <description>Увольнение</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000005</value>
+      </code>
+    </items>
+    <items id="c1614ed5-0379-4460-a079-bf1f4fc10fa0">
+      <name>УчебныйОтпуск</name>
+      <description>Учебный отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_ПричиныОтсутствия.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБ_ПричиныОтсутствия.Form.ФормаСписка</defaultListForm>
+  <forms uuid="6a8e9131-09e4-4c83-949c-dc07e3c354d0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e96f700c-744c-48b5-9f72-41b640ea44d4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

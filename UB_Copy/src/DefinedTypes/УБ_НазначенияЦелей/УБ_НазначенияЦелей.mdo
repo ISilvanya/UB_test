@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f3639ca-5cbc-4cf3-948f-a3e4b854d22d">
+  <producedTypes>
+    <containerType typeId="8564b410-a8f1-4dc7-a26a-d02c83a0cd2b" valueTypeId="5b74ad1d-c35b-4324-b591-abe8b62bb68e"/>
+  </producedTypes>
+  <name>УБ_НазначенияЦелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения целей (УБ)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>CatalogRef.УБ_Компании</types>
+  </type>
+</mdclass:DefinedType>

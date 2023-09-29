@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="578d854b-9346-453a-a43a-7f33441d7c5b">
+  <name>УБ_ЧтениеРасценокПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение расценок показателей эффективности (УБ)</value>
+  </synonym>
+</mdclass:Role>

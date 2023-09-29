@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc54028-b90e-4c24-9935-71981d29da5f">
+  <name>УБ_ИспользоватьСистемуПланированияССП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать систему планирования ССП (УБ)</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьСистемуПланированияССП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

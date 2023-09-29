@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79eebd1d-1550-4dfa-bc4c-a093a8104b91">
+  <producedTypes>
+    <objectType typeId="419474c4-85c1-43b9-bbbf-0c22c774c58e" valueTypeId="ff2c7f61-3689-4aeb-99a3-61203ad37f5f"/>
+    <refType typeId="9454172e-f3b6-4341-a109-b6fb6a50759d" valueTypeId="f87e196b-2923-4ac7-9c66-ed6528f678eb"/>
+    <selectionType typeId="1a7efb2c-5edb-4e7c-83c0-5e55863e847d" valueTypeId="c70a7659-d7ae-4256-b85f-2253dfff2226"/>
+    <listType typeId="ab92b6fd-674d-4dd3-a0c5-1849a807628c" valueTypeId="219e6540-4ab7-4a60-8200-ea3941afd412"/>
+    <managerType typeId="147f4840-f3d0-45fb-a839-d2e3b6f7edb2" valueTypeId="0c94c83c-70d6-41b0-a4d9-085de0ae9929"/>
+  </producedTypes>
+  <name>УБ_МоделиПланированияЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели материальной мотивации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_МоделиПланированияЭффективности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_МоделиПланированияЭффективности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Модель материальной мотивации</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модели материальной мотивации</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_МоделиПланированияЭффективности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.УБ_МоделиПланированияЭффективности.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.УБ_МоделиПланированияЭффективности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБ_МоделиПланированияЭффективности.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="ea7913e3-2e49-4eef-babd-ef5fa75e2c2a">
+    <name>ШкалаПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не использовать) Шкала показателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34801758-bb63-4c97-beee-4fd249819479">
+    <name>ШтатноеРасписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штатное расписание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="583debc7-c077-4f22-aa88-2a24a4439270">
+    <name>ИспользоватьПроизвольныйПериодРасчетаМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать произвольный период расчета модели</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5f0e7dd-6319-492b-ba27-7c98e44ca854">
+    <name>УчитыватьВакантныеПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать вакантные позиции при расчете без окладной системы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98255a28-f66f-4bf9-af85-d44e2808c311">
+    <name>ЕжемесячноеПлановоеЗначениеБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячное плановое значение баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e6fe32a-e557-4ac9-924c-793798935f66">
+    <name>ДоляУчастияВРаспределении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доля участия планового значения баллов в распределении</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7d00eb68-4cd0-45d1-a202-ed552ac81032">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f336706-04fd-4c62-a603-8c3a13cd5f51">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="585613d8-1117-42cc-a2fa-610c42258843">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7df9b325-4908-4d56-b60a-4907880fc73c">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

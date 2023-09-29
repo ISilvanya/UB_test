@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fc8238c-6465-4b0a-8e5d-9c375185ec21">
+  <name>УБ_ДоступностьРасчетаЭффективностиСотрудниковДляПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность расчета эффективности сотрудников для пользователей (УБ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

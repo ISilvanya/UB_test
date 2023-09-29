@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8aab7b0-bb5f-4c87-acfd-97ad527513e5">
+  <name>УБ_ДобавлениеИзменениеПоказателейРасчетаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение показателей расчета зарплаты (УБ)</value>
+  </synonym>
+</mdclass:Role>

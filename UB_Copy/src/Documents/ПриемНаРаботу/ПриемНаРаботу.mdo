@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c130a63f-f57a-42a5-9c96-11a999408903">
+  <producedTypes>
+    <objectType typeId="e013e516-7b6f-410a-91ed-26ae56e88543" valueTypeId="b49e9b1a-9525-4908-8851-9b6a7060b166"/>
+    <refType typeId="fd343c8e-e0dc-4560-99a1-3d6669041a64" valueTypeId="56e2fb94-2047-4bd1-9ee2-ce233caa4739"/>
+    <selectionType typeId="135ce722-7de5-4b0d-bd26-606a81ed56e9" valueTypeId="627b3ece-c168-4b88-8c98-da50710f4bc9"/>
+    <listType typeId="bb3f808a-ddf0-4048-b545-e1d0dd9d5ea3" valueTypeId="95d39de8-b501-4c39-8f7a-ef451f791d75"/>
+    <managerType typeId="018dd02d-3617-458f-ace2-4a93a80498bd" valueTypeId="1228aacc-e177-41d8-8b6b-57eb8b1ba7be"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.Сотрудники</basedOn>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="cabae566-b128-42ab-bb03-462478b97ba4">
+    <name>ДолжностьПоШтатномуРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность по штатному расписанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aab43fb-4eda-46ae-acf9-1d2454d260a7">
+  <name>УБ_ИспользоватьПодсистемуМатериальнойМотивации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему материальной мотивации (УБ)</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьПодсистемуМатериальнойМотивации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

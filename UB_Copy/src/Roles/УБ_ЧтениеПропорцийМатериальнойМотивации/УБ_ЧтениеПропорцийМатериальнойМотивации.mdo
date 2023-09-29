@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7204fb67-924e-44e1-bb6f-2e2972dc0582">
+  <name>УБ_ЧтениеПропорцийМатериальнойМотивации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение пропорций материальной мотивации (УБ)</value>
+  </synonym>
+</mdclass:Role>

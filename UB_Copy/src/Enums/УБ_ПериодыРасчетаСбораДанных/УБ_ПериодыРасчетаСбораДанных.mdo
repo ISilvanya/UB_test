@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f429f167-124a-4a8b-b78e-b7107417dace">
+  <producedTypes>
+    <refType typeId="c949ce50-48ea-434c-b143-4be4a252878f" valueTypeId="14dd94de-6110-4801-b91d-9f75c9538cbf"/>
+    <listType typeId="c1e15de8-7bd2-4876-bec9-3583799ca8bc" valueTypeId="3837ca33-9c43-4216-88b7-7676cd12afa1"/>
+    <managerType typeId="c9068dfa-9b3e-4eea-b7c1-c7fa3e655dee" valueTypeId="57242121-25c6-41e3-8c24-69dbbba71c00"/>
+  </producedTypes>
+  <name>УБ_ПериодыРасчетаСбораДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды расчета сбора данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce68241d-de9f-4ea8-b021-d8e75c6d0905">
+    <name>ТекущийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fee3026-59cd-4b5a-ac34-d5204dafe52d">
+    <name>ПрошлыйМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошлый месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9130256d-0ca9-41e1-9196-47648e8b191a">
+    <name>ТекущийКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4b03706-8c4d-4dd0-8a94-d42ea9bc956e">
+    <name>ПрошлыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошлый квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4831383a-7b02-4cd7-aebd-b620af63faa1">
+    <name>ПервыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-ый квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68bbd36f-fbed-41c8-aa92-582171af51a1">
+    <name>ВторойКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>2-ой квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="074323ea-eb47-4eca-80d0-f504f2715541">
+    <name>ТретийКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>3-ий квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad2db73f-a7b8-412f-b051-8314a6f04cbb">
+    <name>ЧетвертыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>4-ый квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92831b05-17a5-4bf2-99f0-3b20d1576dc8">
+    <name>ПервоеПолугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>1-ое полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="356943ff-4993-4ab9-89f5-2ce162b3e377">
+    <name>ВтороеПолугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второе полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9aaa40f5-fd2c-420f-ab2c-9131f19ed1f9">
+    <name>ТекущееПолугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a589f608-8db2-4517-9a35-e388c1c924df">
+    <name>ПрошлоеПолугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошлое полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d443f072-4e03-47d0-b90d-a0e167cfa6e8">
+    <name>ТекущийГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f0d6fef-6a03-4f4b-a86e-79a1d40e47ee">
+    <name>ПрошлыйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошлый год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

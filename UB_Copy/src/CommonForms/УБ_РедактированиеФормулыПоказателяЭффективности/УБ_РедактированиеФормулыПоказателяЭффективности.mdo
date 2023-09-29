@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="521f48f7-ea0f-4df4-9562-000d2ec8327e">
+  <name>УБ_РедактированиеФормулыПоказателяЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование формулы показателя эффективности (УБ)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

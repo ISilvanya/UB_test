@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f91a128-072f-4593-b3eb-ad55abc0aed5">
+  <name>УБ_РасчетЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет эффективности</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УБ_РасчетЭффективностиСотрудников</content>
+  <content>CommonCommand.УБ_ПанельОтчетовРасчетЭффективности</content>
+  <content>FunctionalOption.УБ_ИспользоватьПодсистемуМатериальнойМотивации</content>
+  <content>DataProcessor.УБ_РегистрацияРЭНаМесяц</content>
+  <content>Report.УБ_АнализЭффективностиСотрудников</content>
+  <content>Report.УБ_ПроверкаСостоянияСотрудников</content>
+  <content>Report.УБ_АнализСтандартов</content>
+  <content>Report.УБ_НазначенныеСотрудникамМодели</content>
+  <content>Report.УБ_АнализЗаполненияМоделей</content>
+  <content>Report.УБ_СверкаПередаваемыхДанныхВРасчетныйОтдел</content>
+  <content>Report.УБ_ОписаниеПоказателейЭффективностиСотрудников</content>
+  <content>Report.УБ_АнализКоэффициентовРаспределенияБезокладнойСистемыРасчета</content>
+  <content>Report.УБ_КартаЦелейКомпании</content>
+  <content>Report.УБ_АнализССП</content>
+  <parentSubsystem>Subsystem.УБ_МодульУБ</parentSubsystem>
+</mdclass:Subsystem>

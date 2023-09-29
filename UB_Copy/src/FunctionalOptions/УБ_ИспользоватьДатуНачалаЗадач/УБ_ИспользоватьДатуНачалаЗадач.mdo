@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d33763b-868e-471b-8fb3-f98cf6874b5c">
+  <name>УБ_ИспользоватьДатуНачалаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дату начала задач(УБ)</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьДатуНачалаЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

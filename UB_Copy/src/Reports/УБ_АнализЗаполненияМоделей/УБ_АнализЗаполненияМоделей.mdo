@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="806cd1f6-c968-4bc7-b086-76a7005a56ba">
+  <producedTypes>
+    <objectType typeId="522c6794-4d91-42b8-a112-81915e73585d" valueTypeId="3f8c2917-e9fd-40c9-9e40-6010c5f4dcdc"/>
+    <managerType typeId="f1d9a65d-ac47-4d16-a778-3315477be472" valueTypeId="0743d75e-1477-4208-894b-d7ea8e1c6a23"/>
+  </producedTypes>
+  <name>УБ_АнализЗаполненияМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ заполнения моделей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УБ_АнализЗаполненияМоделей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Анализ заполнения моделей</value>
+  </extendedPresentation>
+  <templates uuid="6c8ba024-0f6f-4e77-a648-06a04cabeefb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

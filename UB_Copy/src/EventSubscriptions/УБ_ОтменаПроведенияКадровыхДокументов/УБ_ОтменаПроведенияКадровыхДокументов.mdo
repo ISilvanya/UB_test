@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de611f8-6076-4c09-a3d7-4876ea2928b5">
+  <name>УБ_ОтменаПроведенияКадровыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отмена проведения кадровых документов (УБ)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.КадровыйПереводСписком</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.УБ_НазначениеНаДолжность</types>
+    <types>DocumentObject.УБ_ПереводНаДолжность</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.УБ_КадровыйУчет.УБ_ОтменаПроведенияКадровыхДокументовОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

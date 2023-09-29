@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b2e53b3-1778-4dcf-8f3f-1c38e356085d">
+  <name>УБ_РасчетПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет показателей эффективности</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

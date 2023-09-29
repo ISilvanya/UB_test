@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e935c176-791c-495e-908a-846ef34d2eba">
+  <name>УБ_НастройкаПорядкаЭлементовСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка порядка элементов служебный (УБ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aff79089-34e3-40d0-9cfb-5bfeb6fffaee">
+  <name>УБ_ИспользоватьДатуИВремяВСрокахЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дату и время в сроках задач(УБ)</value>
+  </synonym>
+  <comment>Если Ложь, то только дату, без времени.</comment>
+  <location>Constant.УБ_ИспользоватьДатуИВремяВСрокахЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

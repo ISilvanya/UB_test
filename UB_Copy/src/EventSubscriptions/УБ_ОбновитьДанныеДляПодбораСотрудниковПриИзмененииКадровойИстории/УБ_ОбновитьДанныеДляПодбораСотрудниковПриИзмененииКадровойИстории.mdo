@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ab2d637-1a00-48f4-896c-0c782e9c9755">
+  <name>УБ_ОбновитьДанныеДляПодбораСотрудниковПриИзмененииКадровойИстории</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ обновить данные для подбора сотрудников при изменении кадровой истории</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.УБ_КадроваяИсторияСотрудников</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УБ_КадровыйУчет.УБ_ОбновитьДанныеДляПодбораСотрудниковПриИзмененииКадровойИсторииПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7438ce6d-90f3-43c4-9c53-a0593ba11069">
+  <name>УБ_ИспользоватьБезокладнуюСистемуПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать безокладную систему показателей (УБ)</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьБезокладнуюСистемуПоказателей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.УБ_ТипыПоказателей.Attribute.ИспользоватьДляРаспределенияКоэффициентовБезокладнойСистемы</content>
+  <content>Document.УБ_УтверждениеГрейда.Attribute.ПоказательРасчетаЗарплатыПриБезокладнойСистеме</content>
+  <content>AccumulationRegister.УБ_КоэффициентыРаспределенияБезокладнойСистемыПоказателей</content>
+  <content>Document.УБ_РасчетЭффективностиСотрудников.TabularSection.РаспределениеПремииПодразделения</content>
+  <content>Catalog.УБ_ПоказателиЭффективности.Attribute.НеУчитыватьВРасчетеПерсональнойЭффективности</content>
+</mdclass:FunctionalOption>

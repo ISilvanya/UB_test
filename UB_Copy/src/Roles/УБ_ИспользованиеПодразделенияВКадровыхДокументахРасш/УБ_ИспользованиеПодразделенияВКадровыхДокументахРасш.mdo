@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18584246-78ac-4244-b752-c74282e6332e">
+  <name>УБ_ИспользованиеПодразделенияВКадровыхДокументахРасш</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование подразделения в кадровых документах расширенная (УБ)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d44b0bd2-7414-44ec-969a-37fe3e7f78d3">
+  <producedTypes>
+    <selectionType typeId="f0dc2df2-e050-4895-b71f-341d33368d9c" valueTypeId="594f2c69-c664-4484-a579-c44703e4fdcf"/>
+    <listType typeId="7182685a-f9cd-409e-8a1b-a211a02ab30b" valueTypeId="67c8e9bd-f209-4069-83b3-e49bf0f9e648"/>
+    <managerType typeId="e19aae5d-3ff7-470e-96c4-5af7da15eb41" valueTypeId="e43869c9-5f3b-4339-9fca-74ed47128c53"/>
+    <recordSetType typeId="b2227880-f55d-4fee-ac11-394a85a5d60a" valueTypeId="709d0179-a18b-4286-8af9-dff9c4b573a5"/>
+    <recordKeyType typeId="5f61ec7c-58bb-439a-8e34-93857d649e3a" valueTypeId="84429220-ae17-403d-8b23-d971811651ef"/>
+    <recordType typeId="795ba2ce-a603-4417-aaac-7d7534cb40c0" valueTypeId="d2532e3c-775e-4f11-a7ef-6c520afbf15c"/>
+  </producedTypes>
+  <name>УБ_КоэффициентыРаспределенияБезокладнойСистемыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты распределения безокладной системы показателей сотрудников(УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="181283ca-7d68-4f5f-bce5-c33cd684bf0d">
+    <name>ЗначениеКоэффициента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="480b564b-8871-4102-bd46-26bfcf894f3c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="925b0217-2d35-4551-b77b-50ac48f1fb91">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="93674087-2957-4927-9f36-16c6692144c4">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6c7e9d7a-071a-4b5e-be7f-f8d3a15c7242">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ТипыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

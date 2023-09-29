@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="501e56e1-b789-4249-b582-c8bb0d77b59a">
+  <producedTypes>
+    <objectType typeId="6cf1bf56-ae3c-4fd6-ae22-7b38f3ab2b39" valueTypeId="f73a5be1-4603-4e91-b635-c5cdd8a41678"/>
+    <refType typeId="cf87e86e-fccf-49f0-8b18-d7b1c10bb5e4" valueTypeId="646c8adc-d42e-4b9f-8827-b42d48ab875f"/>
+    <selectionType typeId="902b6010-17d9-452b-b665-1d27c303d044" valueTypeId="e23b9898-ae5d-4133-af01-5284488f15a0"/>
+    <listType typeId="bf846cc1-c6b1-4f14-a58a-53bd884dd7cd" valueTypeId="8364a048-4330-4b0d-8c9b-46de0c568388"/>
+    <managerType typeId="8c3ea4e8-565e-4eb5-9546-816d544222f2" valueTypeId="4df365e6-d115-44bf-b142-0470beafb4aa"/>
+  </producedTypes>
+  <name>УБ_ОтстранениеОтДолжности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отстранение от должности (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УБ_ОтстранениеОтДолжности.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отстранение от должности</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Отстранения от должности</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УБ_ОтстранениеОтДолжности.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УБ_ОтстранениеОтДолжности.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.УБ_НазначенныеРуководителиПодразделений</registerRecords>
+  <registerRecords>InformationRegister.УБ_КадроваяИсторияСотрудников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c383c791-34c5-406a-8b96-e9d47fd5beaf">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.МесяцПримененияОтбора</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.УБ_ОтстранениеОтДолжности.Attribute.ДатаОтстранения</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.ТекущаяОрганизация</name>
+      <field>Document.УБ_ОтстранениеОтДолжности.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8586294f-916f-46ba-929f-f3b12a607cba">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1e6320d-228e-431e-96c3-b0b576b8ba63">
+    <name>ДатаОтстранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отстранения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bbfc40c-bbe5-41f2-b222-738ae0df4289">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8aa83886-41ee-46a1-b9e5-1b927231d13f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="db175945-52a8-44cc-a8ff-31cafa478526">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0712680b-8ad0-434f-a667-25c4641b22a5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

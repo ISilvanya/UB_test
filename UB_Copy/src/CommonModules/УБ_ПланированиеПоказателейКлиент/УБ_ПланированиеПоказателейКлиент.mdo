@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48f8e269-4930-4a0e-85b4-e9c28e2f4c29">
+  <name>УБ_ПланированиеПоказателейКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование показателей форма (УБ)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

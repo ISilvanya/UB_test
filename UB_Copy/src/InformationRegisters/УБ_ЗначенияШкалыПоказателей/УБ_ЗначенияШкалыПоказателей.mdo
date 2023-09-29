@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfb1d21e-07c3-4bb1-8ba4-c77003c4171f">
+  <producedTypes>
+    <selectionType typeId="12237a64-4650-49f9-91c1-e7101b4cc435" valueTypeId="a58ae961-9955-4633-aee5-872217162fb0"/>
+    <listType typeId="ba7dd0f7-48c4-40f8-9079-15cf057795e1" valueTypeId="439a9fc0-d754-4ba1-9874-9676ea418fd4"/>
+    <managerType typeId="286122e3-4940-43ab-a781-ab9222d33cff" valueTypeId="cd05fab8-7959-41f8-8e17-f9bc94d70a98"/>
+    <recordSetType typeId="e36c2ada-c600-41e1-8b6b-463dfb33a7cb" valueTypeId="f0084f4d-a307-4f4c-8075-23e3a840057f"/>
+    <recordKeyType typeId="50937d66-44fe-43e8-bc9a-3fddc3832fa0" valueTypeId="6ec6aef4-c3d9-4d30-ba49-dcc3af78feee"/>
+    <recordType typeId="93d65fcb-8684-4618-b32e-b7440c1e0870" valueTypeId="451a182f-079f-40eb-8d24-0d02f5e7e32e"/>
+    <recordManagerType typeId="74084f75-78e9-4676-b1c4-a79c745fa793" valueTypeId="db285c18-5611-4753-b4a9-32eb339ef2e5"/>
+  </producedTypes>
+  <name>УБ_ЗначенияШкалыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения шкалы показателей (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.УБ_ЗначенияШкалыПоказателей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Значения шкалы показателей</value>
+  </listPresentation>
+  <resources uuid="d9ada97d-6490-4525-adb0-21b17e12d3ba">
+    <name>УстановкаЗначенийШкалыПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка значений шкалы показателей</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УБ_УстановкаЗначенийШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9d6e703d-baba-4a3e-993e-78937e541af3">
+    <name>ШкалаПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала показателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5af5a4ff-6f2d-498d-b4ad-a3b821d1b436">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

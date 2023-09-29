@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dec153c1-4e34-4cc3-9711-5617da8a0ff5">
+  <name>УБ_ОбновитьДоступностьРасчетаЭффективностиПриИзмененииРуководителяПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить доступность расчета эффективности при изменении руководителя подразделения</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.УБ_НазначенныеРуководителиПодразделений</types>
+    <types>InformationRegisterRecordSet.УБ_ДелегированныеСотрудникиПодразделения</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УБ_ДоступностьРасчетаЭффективностиСотрудниковДляПользователей.УБ_ОбновитьДоступностьРасчетаЭффективностиПриИзмененииРуководителяПодразделения</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39ed6a4c-6ddc-4522-abd8-d9827b0f5fb4">
+  <name>CRM_СтрелкаВправоВнизКрасная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелка вправо вниз красная</value>
+  </synonym>
+</mdclass:CommonPicture>

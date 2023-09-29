@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49ee5afa-7409-414d-ab6d-a27a0467878b">
+  <producedTypes>
+    <managerType typeId="c1f91b56-7749-479f-8747-920400e8f70d" valueTypeId="d2a9abc4-af31-40b9-b24c-ae3d4f7d65bb"/>
+    <valueManagerType typeId="521d2ce4-d66c-4f47-8625-afacbc06b44c" valueTypeId="4612a088-fab2-4fb4-852a-b4ce8d12d416"/>
+    <valueKeyType typeId="c688a21f-4d7b-4eec-9bea-d69faf5ed506" valueTypeId="30492dba-9f75-4254-9aec-6ceff2cfedcb"/>
+  </producedTypes>
+  <name>УБ_ОграничениеДоступаНаУровнеЗаписейУниверсально</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничение доступа на уровне записей универсально (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

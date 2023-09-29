@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8980eb-1c69-4d85-b92b-24a200a0d232">
+  <name>УБ_ПользовательскийИнтерфейсКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ Пользовательский интерфейс клиент</value>
+  </synonym>
+  <comment>Модуль для работы с интерфейсом, графикой</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

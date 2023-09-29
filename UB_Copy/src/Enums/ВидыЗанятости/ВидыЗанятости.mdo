@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dfa6b7f-9487-4271-b539-765020cc0a44">
+  <producedTypes>
+    <refType typeId="0594907c-8743-44b5-8b05-4dd3f3c176fd" valueTypeId="c7ccea7d-4428-4df6-8852-0da707ba0a46"/>
+    <listType typeId="08f39ab2-2ce6-4bf4-ba81-0b67eba4f7ae" valueTypeId="ab094048-f925-4ee6-b470-e683b33d6977"/>
+    <managerType typeId="b9960793-9c27-43c8-85a9-df1a778e499f" valueTypeId="ee04a8bc-0bac-4ae0-a9a4-3f772c550dc3"/>
+  </producedTypes>
+  <name>ВидыЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды занятости</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Employment kind </value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="f8c044be-17df-4c7b-bbed-bd49f20fbed3">
+    <name>ОсновноеМестоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное место работы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Primary employment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e1feea7-091e-453f-87ef-7a2f5275c3e3">
+    <name>Совместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешнее совместительство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>External secondary employment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b00c8d70-4465-46d1-8af0-cd6cf5f236aa">
+    <name>ВнутреннееСовместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее совместительство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Internal secondary employment </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="500a8de8-c6f7-4cf8-a03d-325899a28ed5">
+    <name>Подработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подработка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Side job</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

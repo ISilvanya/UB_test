@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d21bc734-0428-4062-b1c4-3400ebc3086a">
+  <name>УБ_ДинамическоеФормированиеИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамическое формирование интерфейса (УБ)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61c715d6-73ae-4d4f-b4d9-ca95e582b740">
+  <producedTypes>
+    <objectType typeId="f078c740-41d1-4399-acb6-811cf8d79f46" valueTypeId="b3568e16-6609-4b4a-9a78-cd3fe360f6b9"/>
+    <refType typeId="9fd044e1-b11b-40e0-befd-c92ae246101a" valueTypeId="5ed416d8-058f-410c-b42a-69a43e793474"/>
+    <selectionType typeId="6130bb66-7f50-4b37-92a0-2cbc4e272898" valueTypeId="a71be849-771b-49c4-8d88-fe06ba378e30"/>
+    <listType typeId="91c297a9-08cf-47ed-b9bb-aa919c117796" valueTypeId="ecf0d0e8-2ae6-45d3-8fd2-99d766d69871"/>
+    <managerType typeId="74c5ed96-d417-4ba3-9b33-e6f8c562c6fe" valueTypeId="3204da98-3e6b-4e7e-925a-1c077f8df37f"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список подразделений, описывающих структуру предприятия. </value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтруктураПредприятия.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтруктураПредприятия.Form.ФормаСписка</defaultListForm>
+  <forms uuid="04c49d98-0c96-4d18-846e-0011c1668d80">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a822bdc7-c516-4e5d-a9e7-0c76849b1585">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

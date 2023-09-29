@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fef2dbe-f584-49fe-a911-f59c190cba10">
+  <producedTypes>
+    <selectionType typeId="22fadc21-b129-47a0-aa8b-3e7deefd4153" valueTypeId="3055368b-675a-4bcf-984d-920a062c45a7"/>
+    <listType typeId="7c60efa8-85ec-47d3-b876-b508d44a6058" valueTypeId="a0a63428-3960-4fdd-a2f8-8e8b152e0b29"/>
+    <managerType typeId="d6d2053f-f694-4973-b3e5-3c163320870f" valueTypeId="eb0045c0-ebb0-495b-9a40-2fd68c375f11"/>
+    <recordSetType typeId="0a8b0c20-7c43-42e9-abbc-5988a96ccf60" valueTypeId="b2a13b8c-aead-48bb-a1fa-7bd4b740d783"/>
+    <recordKeyType typeId="6ecdc3ca-a266-422a-a7f5-60bdcfdf6088" valueTypeId="2b2e50ac-34e0-41f4-856f-f5e56635eeaa"/>
+    <recordType typeId="8bad5a14-4ac6-4fb1-a7ea-7ec4a4ee8996" valueTypeId="d694009a-befd-4bf2-8101-8797e24f8959"/>
+    <recordManagerType typeId="19eaf401-b8e7-4a37-b289-8faaa4f77d95" valueTypeId="6e911f18-33fd-493f-a248-e8e19eb30b02"/>
+  </producedTypes>
+  <name>УБ_УстановленныеШкалыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установленные шкалы показателей(УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="64eab08c-e636-4542-9c22-969e5676c985">
+    <name>ШкалаПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала показателя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="86f2c9f1-8895-4444-a7e8-47dbc211aaa6">
+    <name>МодельПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="09430830-890a-4605-8648-35047be1c3ec">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22722a0b-17c9-4fce-88ac-a6d967f0aa1c">
+    <name>ВерсияГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия грейда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ВерсииГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8ce2b4f3-926f-4534-aa2d-a4153bd06404">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ТипыПоказателей</types>
+      <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

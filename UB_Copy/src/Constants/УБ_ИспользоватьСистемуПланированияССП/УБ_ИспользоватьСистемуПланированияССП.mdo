@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="169558af-e61f-4c23-9631-b673f7fb98c2">
+  <producedTypes>
+    <managerType typeId="b417b031-6f29-4378-aea0-c69dcaa1b00e" valueTypeId="1444811e-ed6a-47d4-8ae8-e1c9f9903b44"/>
+    <valueManagerType typeId="1cc27f51-b2d4-449b-b0fc-694de6f8f2a8" valueTypeId="d8e9fd10-acfc-41b4-bea1-624bbfe62426"/>
+    <valueKeyType typeId="83a45973-6640-43e2-bbc8-c4dccfb86985" valueTypeId="58c8b267-1380-4c07-9236-4495259ea397"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьСистемуПланированияССП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать систему планирования ССП (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

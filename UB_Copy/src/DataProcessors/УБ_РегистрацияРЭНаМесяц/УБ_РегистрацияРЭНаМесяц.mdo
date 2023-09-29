@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc16777b-6b56-4d7d-b8f0-00b9378d25a8">
+  <producedTypes>
+    <objectType typeId="3078f2b6-d7e4-40e5-be11-d8ab4cf945ec" valueTypeId="b6a43316-8f34-4822-a6bb-dfa5bb07c144"/>
+    <managerType typeId="fa1f0bb3-2743-4193-94f9-b5c9fee3d8a5" valueTypeId="aa6134b3-1ce5-4df9-96c0-4f52f3de3633"/>
+  </producedTypes>
+  <name>УБ_РегистрацияРЭНаМесяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация РЭ на месяц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УБ_РегистрацияРЭНаМесяц.Form.Форма</defaultForm>
+  <forms uuid="06eace37-1a83-43ac-ae00-e792ae3330d5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

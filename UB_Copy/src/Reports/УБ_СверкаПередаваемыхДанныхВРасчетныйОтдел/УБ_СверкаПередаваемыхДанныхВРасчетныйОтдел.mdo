@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5969552c-be6d-4586-a26d-b8c3087fb560">
+  <producedTypes>
+    <objectType typeId="069d6df6-4ad7-4730-b5a6-780b16e963c0" valueTypeId="809fc860-c9af-46ee-9915-e98abfecb8af"/>
+    <managerType typeId="3dc86c1b-3373-4d6b-aec6-7318edeea6a4" valueTypeId="92f37bc4-1cd2-4c14-acd6-214fd8aba163"/>
+  </producedTypes>
+  <name>УБ_СверкаПередаваемыхДанныхВРасчетныйОтдел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка данных для расчетного отдела</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УБ_СверкаПередаваемыхДанныхВРасчетныйОтдел.Template.СхемаДляУТКА</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="2991b136-ac93-4b50-b6a0-f7efa77027fb">
+    <name>СхемаДляУТКА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема для УТКА</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

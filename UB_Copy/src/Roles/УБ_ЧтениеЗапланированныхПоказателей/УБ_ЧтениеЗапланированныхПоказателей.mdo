@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4580fb02-f543-4994-8431-ca0b2bf9e533">
+  <name>УБ_ЧтениеЗапланированныхПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение запланированных Показателей (УБ)</value>
+  </synonym>
+</mdclass:Role>

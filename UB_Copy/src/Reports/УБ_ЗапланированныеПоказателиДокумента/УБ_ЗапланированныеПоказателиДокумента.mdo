@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c8b363c-5df2-41ae-a1f8-aa8e8f2900f9">
+  <producedTypes>
+    <objectType typeId="25955cc0-1e83-41d1-8a4a-ddbd44d07e31" valueTypeId="c9186fc9-0058-4567-842e-a4fe2308d6cc"/>
+    <managerType typeId="7f913693-fd82-4b39-8594-20512eb80695" valueTypeId="9ab9a6a6-16ae-4820-a8a8-81fe8ebc1b70"/>
+  </producedTypes>
+  <name>УБ_ЗапланированныеПоказателиДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запланированные показатели документа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.УБ_ЗапланированныеПоказателиДокумента.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="b44adba9-2181-4ce2-8e9e-7b3aab86c010">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

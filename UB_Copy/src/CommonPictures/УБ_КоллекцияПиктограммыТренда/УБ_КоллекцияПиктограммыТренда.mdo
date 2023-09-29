@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b668cb8-d657-4ba5-94fb-82b06cd4ce77">
+  <name>УБ_КоллекцияПиктограммыТренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ коллекция пиктограммы тренда</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Trend icon collection</value>
+  </synonym>
+</mdclass:CommonPicture>

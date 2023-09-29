@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1762b363-283b-4a2b-aa47-bc9a4b57cc1d">
+  <producedTypes>
+    <objectType typeId="f31fb8cd-f238-41f6-b928-2d378c0c01ec" valueTypeId="58edc793-9924-4c25-9dc1-f74c9a46e369"/>
+    <refType typeId="1122f665-8f21-4f51-9e26-52ba3ac9dea5" valueTypeId="003663e9-1f04-4a75-a676-836b2dc2c551"/>
+    <selectionType typeId="429c4852-10f4-4f3a-8a9c-efeff5eca500" valueTypeId="e5c6f37c-258b-487a-9cb1-515c49ea94ea"/>
+    <listType typeId="e65a75d4-66cf-423e-8f40-8a8b7640739c" valueTypeId="2c4de5e0-2084-489f-8513-4107643da501"/>
+    <managerType typeId="cdd93e37-7054-4bfb-bacb-4ed739d336af" valueTypeId="bf0c7630-5841-4bfc-a4a1-427fde376a22"/>
+  </producedTypes>
+  <name>УБ_Делегирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Делегирование (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УБ_Делегирование.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Делегирование сотрудников и подразделений</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Делегирования</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УБ_Делегирование.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УБ_Делегирование.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.УБ_УстановленныеШкалыПоказателей</registerRecords>
+  <registerRecords>InformationRegister.УБ_ДелегированныеСотрудникиПодразделения</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e244f638-8f3b-4a82-99c4-2160ffd3c206">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6326ec83-b7d1-4cdd-9484-ede4eca607a2">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УБ_Делегирование.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Расформировано</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c44c0b95-de99-47b9-adca-d9443772df49">
+    <name>ЗаместительРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь БД руководителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="993563ca-43a1-4af5-8293-94d6458d7f53">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5c9b027-a1aa-4f9c-8fb3-0d4b46ef47a8">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27780586-e0bf-4ceb-a015-fcb3aabbeeb6">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33f7f16b-181d-487e-a8d9-18757ecb2ff0">
+    <name>ДелегироватьВсехСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делегировать всех сотрудников</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fad82bdd-4747-4dd5-af0f-d1bba7102e8e">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5d503c2-9eca-4b38-b31c-16c3932cfb36">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ab2974e9-0a36-4931-9089-bf8eb17a58cc">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9c972a5-4266-428d-a2d8-3f0724d01e00">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="309efa9f-8566-4920-b450-662777fd4b8e">
+    <producedTypes>
+      <objectType typeId="a7dd4ba1-bb53-42e0-80dc-38e9ca29afc9" valueTypeId="f8f5cc44-cb0b-467c-ae83-8fb21bcf01fb"/>
+      <rowType typeId="eab782fc-c419-44a6-a966-8f7515c33833" valueTypeId="efbec520-d919-4e1e-adba-71cbb74fa022"/>
+    </producedTypes>
+    <name>ДелегируемыеСотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делегируемые сотрудники</value>
+    </synonym>
+    <attributes uuid="bea2df18-6877-40e1-a35f-fc293153fff6">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>DefinedType.УБ_Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.МесяцПримененияОтбора</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.УБ_Делегирование.Attribute.ДатаНачала</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.ТекущаяОрганизация</name>
+        <field>Document.УБ_Делегирование.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.ТекущееПодразделение</name>
+        <field>Document.УБ_Делегирование.Attribute.Подразделение</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="eb2e53a9-5ff0-4f24-bbf2-0f970b56683a">
+    <producedTypes>
+      <objectType typeId="6f2585bc-4837-4a02-a428-0929db805fb4" valueTypeId="b3eecea6-292d-4cc9-9d9b-04a92d3a5470"/>
+      <rowType typeId="1af1ca2a-9758-46a9-b68d-2ed21ef27e7b" valueTypeId="8b11e09b-d486-46c9-8e28-8e129a8d65ee"/>
+    </producedTypes>
+    <name>ВидыОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды операций</value>
+    </synonym>
+    <attributes uuid="95014dd8-d121-441d-91c5-60386cd93c4b">
+      <name>ВидОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид операции</value>
+      </synonym>
+      <type>
+        <types>EnumRef.УБ_ВидыОперацийДелегирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

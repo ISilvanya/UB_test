@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f0de835-d3fb-4f3a-8fe8-535446ccd724">
+  <producedTypes>
+    <refType typeId="45c7bcec-3e87-4df7-b2c8-114427f02887" valueTypeId="6dfe0ce5-6a5c-4de4-9055-32433b0be39d"/>
+    <listType typeId="ad3911d4-d5ed-4bd5-a04d-b1bd88ea5fe9" valueTypeId="6f84d7f6-3f2a-4f7c-919d-30da2405b343"/>
+    <managerType typeId="c36583fd-1bdf-4d37-825a-11e0e3a17c14" valueTypeId="953e6ab5-986e-41bd-8526-ca254be9fb09"/>
+  </producedTypes>
+  <name>УБ_ПериодыРасчетаМоделиПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды расчета модели(УБ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="83689dc2-74d7-4412-9387-1e7e4ac1fffb">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d84580d-28a8-49e2-a8b0-751911dc1805">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не исп.) Неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83e9e33f-b81a-4bb3-aa03-1275101dde2a">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2139c391-03a3-4684-a515-8468108b9958">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3cbe1fd8-cb59-4d50-9265-004156873545">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6253994a-aaa8-46ad-871f-84dfc28efb0a">
+    <name>Произвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не исп.) Произвольный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

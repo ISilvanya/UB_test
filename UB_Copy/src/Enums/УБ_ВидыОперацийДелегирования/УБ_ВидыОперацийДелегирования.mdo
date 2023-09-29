@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="213fa013-7eb2-4a4b-8668-4f84b744858a">
+  <producedTypes>
+    <refType typeId="48425c94-3ae9-4787-a315-2e6437a85a5b" valueTypeId="e8262799-138c-4059-bb1b-f2a40f681fe0"/>
+    <listType typeId="6cb320e4-c885-4dc1-bdeb-7263f09b959e" valueTypeId="d1378189-a6bd-4a17-87c1-4597de5ab1c7"/>
+    <managerType typeId="c60dd7d9-e427-4f76-b856-a50976213da9" valueTypeId="63ac06d5-7f53-4223-bd7d-6de4a5e1a80c"/>
+  </producedTypes>
+  <name>УБ_ВидыОперацийДелегирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций делегирования (УБ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bcdc5f66-6697-4674-ad13-0595819a3761">
+    <name>ПодсистемаМотивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсистема мотивации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7497dc7f-46d2-4c23-a74d-5397ed993d44">
+    <name>ПодсистемаПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсистема планирования</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

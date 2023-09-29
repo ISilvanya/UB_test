@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f849f1e6-2d8c-4d87-b985-a8422afe8cfa">
+  <name>УБ_ИспользованиеОтчетаОписаниеПоказателейЭффективностиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета &quot;Описание показателей эффективности сотрудников&quot; (УБ)</value>
+  </synonym>
+</mdclass:Role>

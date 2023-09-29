@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="115a16f9-2f0d-4305-be60-f87584a31237">
+  <name>УБ_УправлениеПечатьюПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление печатью переопределяемый (УБ)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

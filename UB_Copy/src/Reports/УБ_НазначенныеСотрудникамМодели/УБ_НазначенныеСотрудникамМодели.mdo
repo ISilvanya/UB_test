@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42e410a9-951c-47a5-a5d5-392a82350677">
+  <producedTypes>
+    <objectType typeId="3f63b852-3467-4e12-99ca-da4f3c50cd2c" valueTypeId="41f6af24-91a4-4053-b2b2-c7bb826f3870"/>
+    <managerType typeId="6aa822d2-c9ca-4ff6-86d0-d778286ce42f" valueTypeId="a0896856-bb42-4897-8842-eefd0af94a24"/>
+  </producedTypes>
+  <name>УБ_НазначенныеСотрудникамМодели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначенные сотрудникам модели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УБ_НазначенныеСотрудникамМодели.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Назначенные сотрудникам модели</value>
+  </extendedPresentation>
+  <templates uuid="01380fd9-2dcd-485e-b240-b49ce8d40224">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

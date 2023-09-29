@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac36aa4b-a737-4e7b-8fea-83459668b15a">
+  <producedTypes>
+    <containerType typeId="ba8aeb97-7d80-40af-a250-9439b9cf81e9" valueTypeId="19ffd4bb-9395-427a-b106-99afa31f201c"/>
+  </producedTypes>
+  <name>УБ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УБ_Должности</types>
+    <types>CatalogRef.Должности</types>
+  </type>
+</mdclass:DefinedType>

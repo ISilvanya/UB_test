@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7c2067c-3409-450b-843f-08585545ddcc">
+  <producedTypes>
+    <objectType typeId="d0319999-61e2-4a1e-bf06-730f316fc186" valueTypeId="108144f4-7ab5-484e-baff-2d1e7397e2bc"/>
+    <managerType typeId="61c64930-d668-4d9a-83d6-a623576f9900" valueTypeId="3e505dc7-57e6-4786-8600-374a310fcfcb"/>
+  </producedTypes>
+  <name>УБ_ОписаниеПоказателейЭффективностиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание показателей эффективности сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УБ_ОписаниеПоказателейЭффективностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="27f6ec0c-a0bf-4e3e-b976-2400df232226">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

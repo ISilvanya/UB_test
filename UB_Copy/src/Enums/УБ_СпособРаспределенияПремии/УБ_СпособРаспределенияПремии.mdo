@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="561d0ce9-f37b-46f9-bf70-62298a856ed6">
+  <producedTypes>
+    <refType typeId="4fa524b1-7cfa-416b-b275-e3c8f314f398" valueTypeId="de47beb1-3ec1-45ec-a7a2-38c94f562504"/>
+    <listType typeId="d32abe19-9ef6-40fb-b21f-a851fa5cd5f5" valueTypeId="377d364f-c30b-4512-80cd-031f091332a6"/>
+    <managerType typeId="8b137657-2a11-4ccc-a207-c3a235183317" valueTypeId="1cb1865b-7537-4a87-a219-def7b63162f0"/>
+  </producedTypes>
+  <name>УБ_СпособРаспределенияПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ распределения премии</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f7badb3b-22b5-4985-b4e7-3c825eaff6b8">
+    <name>Способ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение максимумом</value>
+    </synonym>
+    <comment>Рассчитывается из предельной суммы*коэффициент эффективности</comment>
+  </enumValues>
+  <enumValues uuid="9d5500c6-5997-459d-913b-85a767fb6d31">
+    <name>Способ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ2</value>
+    </synonym>
+    <comment>Рассчитывается из коэф. распределения, но ограничивается предельным коэффициентом.</comment>
+  </enumValues>
+  <enumValues uuid="cd2a256d-f6b8-47c8-86a2-1de865812a9e">
+    <name>Стандартный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный</value>
+    </synonym>
+    <comment>Рассчитывается из коэф. распределения без ограничений</comment>
+  </enumValues>
+</mdclass:Enum>

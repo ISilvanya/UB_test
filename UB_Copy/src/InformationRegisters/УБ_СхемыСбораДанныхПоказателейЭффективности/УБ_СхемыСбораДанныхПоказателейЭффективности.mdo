@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1ba5fd8-4bf5-4296-9f93-df2f3a67f73e">
+  <producedTypes>
+    <selectionType typeId="814cfaad-24d5-4a85-a4c0-046b1f3d0d7b" valueTypeId="b5f23ab6-de76-4af0-bafc-a86a193fea16"/>
+    <listType typeId="33fbd2b1-fc46-4009-afe4-88752eef686b" valueTypeId="370956f4-d459-4045-8c65-35333ebee7d3"/>
+    <managerType typeId="d65b5779-4811-441f-93e2-8bccd7d43532" valueTypeId="27828fcb-4bba-4384-b430-ebb0c80e7b21"/>
+    <recordSetType typeId="e21b4ebd-60a0-45a7-8fe8-e6beed91fd61" valueTypeId="e42c4de9-d5c6-4820-8e6e-a092ecd516d1"/>
+    <recordKeyType typeId="9657f62f-4ff6-4274-82b4-084b6590d9d1" valueTypeId="441bbefb-26be-4c0f-b9fe-8861b8a5dcf3"/>
+    <recordType typeId="e5f24997-95db-4f8f-a0bb-df7121cebd0d" valueTypeId="16a8f7be-cd07-4e64-82b9-46b120d51949"/>
+    <recordManagerType typeId="bc306773-4e57-4fb3-97f0-c61f32b6208a" valueTypeId="1e98c57f-0287-4ab6-9ae6-26ea34c48119"/>
+  </producedTypes>
+  <name>УБ_СхемыСбораДанныхПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схемы сбора данных показателей эффективности (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УБ_СхемыСбораДанныхПоказателейЭффективности.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Схема сбора данных показателя</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Схема сбора данных показателя</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Схемы сбора данных показателей эффективности</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Схемы сбора данных показателей эффективности</value>
+  </extendedListPresentation>
+  <resources uuid="7ae54406-1dd0-4899-96c2-ab40171073dd">
+    <name>СхемаКомпоновкиДанныхПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных плана</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="91e047df-b308-47d3-b2dd-19d01ab248e3">
+    <name>ХранилищеСхемыКомпоновкиДанныхПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище схемы компоновки данных плана</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2179c2f2-5f9b-4f53-88bf-be54df5c907c">
+    <name>ХранилищеНастроекКомпоновкиДанныхПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище настроек компоновки данных плана</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7beab2e-1020-4e30-9d96-9a4a3686d4aa">
+    <name>СхемаКомпоновкиДанныхФакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных факта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="85aae325-2ca4-4281-b474-dae4322d36b3">
+    <name>ХранилищеСхемыКомпоновкиДанныхФакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище схемы компоновки данных факта</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ecbd6a9c-49fd-4cb5-9786-0a0e4a44dd73">
+    <name>ХранилищеНастроекКомпоновкиДанныхФакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище настроек компоновки данных факта</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="120631b4-4ca7-4176-9b5d-b47ce46c1da8">
+    <name>ОписаниеУстановкиПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание установки плана</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2ca47d8a-e958-4e8d-a2ed-b2ebf22b5660">
+    <name>ОписаниеПодсчетаФакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание подсчета факта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="052ee122-be74-4995-87b2-dcf7e618235d">
+    <name>ОписаниеИнструментовДляАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание инструментов для анализа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c216a04-538a-4a50-bd58-485d4046dd8e">
+    <name>ВариантРасчетаЗначенияПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант расчета значения плана</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ВариантыРасчетаЗначенийПоказателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dad44fc8-5180-4be2-b7ec-27f49725727e">
+    <name>ВариантРасчетаЗначенияФакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант расчета значения факта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ВариантыРасчетаЗначенийПоказателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="257d26c4-d9b8-4a07-a3d8-86d568f528ec">
+    <name>ПериодСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период сбора данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ПериодыРасчетаСбораДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2e0958a1-e6ab-4a47-9ae7-5759a43dd304">
+    <name>ПоказательЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1e8c8e44-582f-4021-bb77-86a7794ab2e8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cc67813-3b06-4240-9415-5dd0bb05fdbd">
+  <name>УБ_ИспользоватьСправочникиКАУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать справочники КА, УП</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьСправочникиКАУП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.ШтатноеРасписание</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.ПоказателиРасчетаЗарплаты</content>
+</mdclass:FunctionalOption>

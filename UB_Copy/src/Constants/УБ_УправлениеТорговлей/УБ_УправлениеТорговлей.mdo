@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9f25daf-e2ba-407f-a516-5fcfd65581f4">
+  <producedTypes>
+    <managerType typeId="0e5b3bce-3a66-4f9f-a24f-d45507390ad8" valueTypeId="116417fa-4b38-4dc9-8fd2-dd6015aada10"/>
+    <valueManagerType typeId="52afe440-afd7-467b-8dd6-f1ca8e2035d2" valueTypeId="ae3a8381-761f-475e-948e-583ee8810c53"/>
+    <valueKeyType typeId="2b552a1a-3341-49f7-bc06-0fac09b799af" valueTypeId="2aa4cb06-a266-4d83-b706-68f1b41e6fb6"/>
+  </producedTypes>
+  <name>УБ_УправлениеТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление торговлей (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Управление торговлей</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a19366b-4c2a-4d0a-b926-b0d9d3d2baf8">
+  <producedTypes>
+    <objectType typeId="a2025af0-a2db-4771-ba40-8403595ee085" valueTypeId="3bfecc03-d8f9-471c-8385-ad488772bc08"/>
+    <refType typeId="4221c8b3-4ea4-46d7-b1de-fabe55aec477" valueTypeId="309cfb91-1bbc-41cf-89bb-a9a634479913"/>
+    <selectionType typeId="b2b58623-1e7a-446e-9dbd-77cd32d6f428" valueTypeId="7f3af527-e4ed-4e8b-8b2b-25c97247f395"/>
+    <listType typeId="63770f7f-77cc-439a-892e-9a6a0431bc26" valueTypeId="30094375-24c4-4524-83dd-078187d0560c"/>
+    <managerType typeId="f64fe587-5112-4845-883b-c64c7e79d5cd" valueTypeId="0f56a864-0eab-436c-b094-669a2e82b900"/>
+  </producedTypes>
+  <name>УБ_ПерспективыССП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перспективы ССП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_ПерспективыССП.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_ПерспективыССП.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="95d1dfe0-8194-4943-9555-3da2fb1e9589">
+      <name>ВнутренниеБизнесПроцессы</name>
+      <description>Внутренние бизнес-процессы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="f76d7384-2e93-41ab-80da-eb38cbe9419f">
+      <name>КлиентыРынок</name>
+      <description>Клиенты/рынок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="b01a2ee0-42e5-47f0-af7d-caad1a94b889">
+      <name>ОбучениеРазвитиеПерсонала</name>
+      <description>Обучение и развитие персонала</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="5679e4f3-fc64-4ff2-a712-6051207a96b6">
+      <name>Финансы</name>
+      <description>Финансы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_ПерспективыССП.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБ_ПерспективыССП.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="06172d8d-8d5c-4932-9395-db9294aaeaec">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ddeea31-99ab-476a-aa99-a0a9a60d8056">
+    <name>СведенияОПоказателе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о показателе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="031f931d-9255-4c4c-b4c6-78b81b0dffdb">
+    <name>ЦветПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Colour</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цвет категории</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Color Category</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f683fbc8-dd3b-44d2-a184-ffb5113e83da">
+    <name>ЦветИндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет индекс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Color index</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цвет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Colour</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5daf17ee-78be-4696-9551-b252afd51ed9">
+    <name>ЦветКрасный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет красный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Color red</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цвет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Colour</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0333c1b6-d7ca-4179-a26e-2a45d48d03bd">
+    <name>ЦветЗеленый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет зеленый</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Color green</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цвет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Colour</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76cf7572-0803-4aeb-a6c2-4e489ea754d1">
+    <name>ЦветСиний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет синий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Color dark blue</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цвет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Colour</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5b727681-ee1b-4c67-a348-e0d555f0b8ed">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c76e18bc-0b77-4095-a664-94b648059166">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67b4fe77-7dff-4e5a-a29d-3eae4538fc78">
+    <name>ФормаВыбораЦвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор цвета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Choice of color</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

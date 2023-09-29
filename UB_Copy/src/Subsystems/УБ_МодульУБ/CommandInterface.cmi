@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.УБ_ДатаОкончанияЗаполненияРЭ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.УБ_ПроцентПремии.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.УБ_ФормаГраницыНормыЭффективностиПоказателей.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.УБ_МодульУБ.Subsystem.УБ_РасчетЭффективности</subsystems>
+    <subsystems>Subsystem.УБ_МодульУБ.Subsystem.УБ_УтверждениеПараметровМоделей</subsystems>
+    <subsystems>Subsystem.УБ_МодульУБ.Subsystem.УБ_НСИ</subsystems>
+    <subsystems>Subsystem.УБ_МодульУБ.Subsystem.УБ_Кадры</subsystems>
+    <subsystems>Subsystem.УБ_МодульУБ.Subsystem.УБ_Планирование</subsystems>
+    <subsystems>Subsystem.УБ_МодульУБ.Subsystem.УБ_Разработка</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

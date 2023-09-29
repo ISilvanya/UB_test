@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54e8f2f-af53-4e0c-a309-868f0591af59">
+  <producedTypes>
+    <objectType typeId="a54ace08-44ba-4f98-9dd1-7109bb7ec93c" valueTypeId="f862e78b-197d-4d1d-a89f-048d6ab81fe8"/>
+    <managerType typeId="a23bc97b-c834-42b3-9253-39f74a81ff54" valueTypeId="a2d4eb2e-3069-43d4-a238-66a74beb2188"/>
+  </producedTypes>
+  <name>УБ_АнализССП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ ССП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.УБ_АнализССП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Анализ сбалансированной системы показателей</value>
+  </extendedPresentation>
+  <templates uuid="594b333d-96d8-47d4-9b8f-a46322914003">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

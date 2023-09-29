@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d60b32a-2d6a-4af7-8a57-1af01fb5a755">
+  <name>УБ_НастройкаПорядкаЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка порядка элементов (УБ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

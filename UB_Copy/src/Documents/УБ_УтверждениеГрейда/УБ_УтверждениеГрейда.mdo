@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dda5754-8bc7-4d19-a602-074d2071f007">
+  <producedTypes>
+    <objectType typeId="aa13a0bd-4a1c-43f1-8c37-cdf659d272b3" valueTypeId="c3da4ece-3e20-4214-bcfb-a2b70092a2a9"/>
+    <refType typeId="5447e70c-e084-40b2-8cdf-a0fbd1623276" valueTypeId="10291ca1-0874-4ee0-a491-dc4d730ec962"/>
+    <selectionType typeId="08dd6f1c-719e-47d4-884d-803cf54ead7c" valueTypeId="7175e95c-73ef-41a5-9cd4-7677c8f9d942"/>
+    <listType typeId="f1afc256-afec-43b8-9451-8d1be083238d" valueTypeId="930cc3c5-7332-4826-a0c5-e1009cc8c267"/>
+    <managerType typeId="f6667384-7a6d-49de-b92f-1bd91de318e1" valueTypeId="b3b50e9a-884f-4dad-a56c-6a5f847c4d0f"/>
+  </producedTypes>
+  <name>УБ_УтверждениеГрейда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утверждение модели материальной мотивации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УБ_УтверждениеГрейда.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.УБ_УтверждениеГрейда</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Утверждение модели материальной мотивации</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Утверждение модели материальной мотивации</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УБ_УтверждениеГрейда.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УБ_УтверждениеГрейда.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.УБ_УстановленныеШкалыПоказателей</registerRecords>
+  <registerRecords>InformationRegister.УБ_РасценкиПоказателейЭффективности</registerRecords>
+  <registerRecords>InformationRegister.УБ_ФормулыПоказателейЭффективности</registerRecords>
+  <registerRecords>InformationRegister.УБ_ВерсииГрейдов</registerRecords>
+  <registerRecords>InformationRegister.УБ_СоставСтандартовМоделейПланирования</registerRecords>
+  <registerRecords>InformationRegister.УБ_СоставПоказателейМоделейПланирования</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ce7b91d2-c2e9-47b7-a9cd-ffd280e81fd1">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="337ec4c8-bd8d-47c3-a773-45f8e90a2176">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УБ_УтверждениеГрейда.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8103937a-1bc2-4a4c-9e8f-d68068ff3cc3">
+    <name>МодельПланированияЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель материальной мотивации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Организация</name>
+      <field>Document.УБ_УтверждениеГрейда.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Подразделение</name>
+      <field>Document.УБ_УтверждениеГрейда.Attribute.Подразделение</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>ДатаПримененияОтбора</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.УБ_УтверждениеГрейда.Attribute.ДатаУтверждения</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3a6aba1-e707-4ace-9065-c9e3c84e139e">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд (категория)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УБ_УтверждениеГрейда.Attribute.МодельПланированияЭффективности</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59b8c0bf-4dfd-49ca-bbd6-ae8932423113">
+    <name>ВерсияГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия грейда (категории)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ВерсииГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.УБ_УтверждениеГрейда.Attribute.Грейд</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14615af1-229d-42f5-8ded-c95ccf5d4e15">
+    <name>ВариантРасчетаПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант расчета премии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ВариантыРасчетаПремии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.УБ_ВариантыРасчетаПремии.EnumValue.ОтФактическогоЗначения</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c85dc6c1-599a-4538-8b50-40f818e8f8ed">
+    <name>ШкалаПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала показателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14737b42-96b0-4a4f-809e-fb235e0ca156">
+    <name>ПоказательРасчетаЗарплатыПриБезокладнойСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель расчета зарплаты при безокладной системе</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_ПоказателиРасчетаЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e891e9e-7071-4058-9817-d433776d41cb">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_СтатусыМоделейПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.УБ_СтатусыМоделейПланирования.EnumValue.Планируется</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96127e98-be9f-4e8d-a963-f7b75dc6d213">
+    <name>ДатаУтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата утверждения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a292393-b7b3-468b-816e-ee639da4e911">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6462be9-ecf1-4ea3-99f7-4fab0ae16bc4">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d99fa05-6016-402d-8a35-591713ddefc9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6afd384d-8884-49ed-a18b-e3f33d4fe424">
+    <name>ГрейдЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд (категория) закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f021706-d9f4-48b5-bd22-eb4df001cdf8">
+    <name>ДатаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c14d266d-082c-4745-90f7-e735ebc2da44">
+    <name>ПериодРасчетаМоделиПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период расчета модели планирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ПериодыРасчетаМоделиПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c19888fb-d9c0-4484-9339-368af94f55e8">
+    <name>АктуальнаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальная версия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd9056bf-ca2d-4677-8ac2-9685c8a46381">
+    <name>ПредельныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предельный коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55d91765-1394-440e-aa69-6bc889c39e07">
+    <name>Матричный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Матричный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a59d471f-41dc-4141-8142-711d4f27b272">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed6cc4a1-15c3-457d-95f3-c1093f2b06f6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c2ace64-072a-4b8a-be43-eab4eef7dc93">
+    <name>ФормаПодбораПоказателейЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора показателей эффективности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae62c9c1-228d-46c0-9d48-df5e57f4d2fd">
+    <name>ФормаПодбораШкалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора шкалы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c4efb501-84b2-4884-92c2-289d308f09da">
+    <name>ФормаПодбораТиповПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора типов показателей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12c3cab4-b2e6-42d2-ad9d-4b92a213a2a3">
+    <name>ФормаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1d1aa00d-aa8a-4b07-bb8b-d19a5d799743">
+    <producedTypes>
+      <objectType typeId="05ddfc17-0180-4567-92ee-30e57b2ad196" valueTypeId="7bc520ce-ded9-4394-ba4a-4a1b56aa716c"/>
+      <rowType typeId="ba77c5be-319f-456c-8539-cf29923d2893" valueTypeId="3005a150-8d95-452a-9052-991c7958793e"/>
+    </producedTypes>
+    <name>Показатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="86869653-0640-4631-92f5-a8f63497423d">
+      <name>ПоказательЭффективности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель эффективности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="705a0b2b-85ca-4cc9-bfb1-f8722a5b941b">
+      <name>ТипПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип показателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ТипыПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6b2e820-eb9e-4064-b937-6cab05b8819b">
+      <name>Расценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cb6a6864-a449-4214-a2a0-b11f1e2930a3">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5a836466-3fe0-4f09-b342-3c1e131b5349">
+      <name>План</name>
+      <synonym>
+        <key>ru</key>
+        <value>План</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="908b23ed-f31a-447d-ab71-55a9183e81e3">
+      <name>ШкалаПоказателей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шкала показателей</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ШкалыПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="72cc0cd4-8d48-4999-ae64-7f7ba4699998">
+      <name>КритическоеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Критическое значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46602f3b-d3b3-4482-9288-1bd745cba27c">
+      <name>МинимальноеЗначениеРезультата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальное значение результата</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8cdbeafc-eb99-435a-bd90-1bb44e9117bb">
+      <name>МаксимальноеЗначениеРезультата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальное значение результата</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5ed067c1-dc81-4cbf-a353-da74c187a4f5">
+      <name>ФормулаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формула расчета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87335c07-c392-4d89-b380-045bfa1058b3">
+      <name>ФормулаИзменена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формула изменена</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9783683e-8a11-4255-b630-b2a061d6e229">
+      <name>ВидРасценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расценки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.УБ_ВидыРасценокПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b7e73214-0b2e-4d3b-8d11-a42f0855157a">
+      <name>РассчитыватьРезультатОтФакта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рассчитывать результат от факта</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d815fdd-ed79-40e1-93d1-19e7d91e06ea">
+      <name>Фиксированный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фиксированный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="97e2d6cc-185b-40d4-b194-983bc01c0d34">
+      <name>НегативноеОтклонениеНормыДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Негативное отклонение нормы до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b8b3068-1c9f-4b08-a7d0-4b171165865d">
+      <name>ПограничноеОтклонениеНормыОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пограничное отклонение нормы от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="abcfa754-250f-415b-9236-4cb73aa7943f">
+      <name>ПограничноеОтклонениеНормыДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пограничное отклонение нормы до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="873ade51-8c41-4f16-81aa-866580daf379">
+      <name>ПозитивноеОтклонениеНормыОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Позитивное отклонение нормы от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="552106e7-8283-4d02-9cfb-fbb226c3b570">
+      <name>ПериодичностьРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Периодичность расчета</value>
+      </synonym>
+      <type>
+        <types>EnumRef.УБ_ПериодичностьРасчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a7f3670-49a4-4552-9dff-052fb052ca13">
+      <name>ОграничиватьМинимальноеЗначениеРезультата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ограничивать минимальное значение результата</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="06a36961-a400-4d56-aa5c-33bf3d814c5b">
+      <name>ОграничиватьМаксимальноеЗначениеРезультата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ограничивать максимальное значение результата</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1c692b5a-c504-4a69-a22f-b3028c727e3a">
+    <producedTypes>
+      <objectType typeId="48d12115-9037-4fe2-8d19-54ba9f7266ea" valueTypeId="501f6d18-8050-473a-8618-3a325e3dea54"/>
+      <rowType typeId="6392409a-464f-4825-afd9-6aa352675c8f" valueTypeId="698dd4f7-e2f4-4ed3-9a81-72eb5876139d"/>
+    </producedTypes>
+    <name>Стандарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="04c26d52-187a-4940-a37a-8e7446403b7b">
+      <name>Стандарт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандарт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_Стандарты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19b3a442-4c24-4128-9a5f-6931839c6b2c">
+      <name>ШкалаОценок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шкала оценок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ШкалыОценок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.УБ_УтверждениеГрейда.TabularSection.Стандарты.Attribute.Стандарт</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4fb5b6e7-e6c7-41af-b294-c4017651be4c">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8a5b8806-b6c5-404d-93c7-bcacccfe53df">
+    <producedTypes>
+      <objectType typeId="2c40563e-97ad-4a1e-b41d-05f4a84ba5ee" valueTypeId="01db1a96-ac10-48e9-9272-e754c0d0d5ac"/>
+      <rowType typeId="a0bbb5e7-06d5-4d18-9558-20bc8153dcf6" valueTypeId="5fa4407a-38a7-4ee4-a9a4-63321d6e04d8"/>
+    </producedTypes>
+    <name>ФормулыРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формулы расчета</value>
+    </synonym>
+    <attributes uuid="3e78b9e8-0c83-45f8-96a6-ce84284aa830">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3af390eb-ad8b-4a3e-957f-d7b4f348ae99">
+      <name>ФормулаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формула расчета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4db82cf8-83f2-4121-beba-bee499e3c516">
+      <name>ПоказательЭффективности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель эффективности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6e9ee87-505e-4298-93dd-49632b62012a">
+      <name>ТипПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип показателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ТипыПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="164f99eb-cf31-4103-a9db-e872e79be670">
+    <producedTypes>
+      <objectType typeId="dc3d7846-ceff-427a-a8f0-85d8de6deefe" valueTypeId="b4622e16-c399-4182-a504-343fbad0aa7f"/>
+      <rowType typeId="20cb8de2-c444-40e7-82ef-633a1a2decfc" valueTypeId="49a10a64-855c-42a6-a363-2d77179f6e22"/>
+    </producedTypes>
+    <name>ТипыПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы показателей</value>
+    </synonym>
+    <attributes uuid="005388cc-cd4a-423d-90d2-bde87d4b4264">
+      <name>ТипПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип показателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ТипыПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3ce0ea24-c226-4e87-a726-81bd60d9cbb9">
+      <name>ФормулаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формула расчета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c659df38-fa43-476c-ba5b-8884874c9615">
+      <name>ШкалаПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шкала показателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ШкалыПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="22072441-cd41-4507-92f2-617967672151">
+    <producedTypes>
+      <objectType typeId="e543b268-545e-40cf-8eaa-1eb8703457d0" valueTypeId="c784b0fa-9524-4279-a640-29e92a9b456e"/>
+      <rowType typeId="b0f3ef61-9a91-498c-b41f-bd8b4eb54356" valueTypeId="7f880a2a-a3c7-4df3-8503-c505c50d3c2f"/>
+    </producedTypes>
+    <name>ПериодыИспользованияПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периоды использования показателей</value>
+    </synonym>
+    <attributes uuid="e57be51a-dd11-4e12-a441-6b45e7aba999">
+      <name>ПоказательЭффективности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель эффективности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ПоказателиЭффективности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dba6c068-2c39-4709-9d26-3502ca4beb61">
+      <name>ТипПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип показателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБ_ТипыПоказателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ed9c02a8-3bbb-4d2e-a27d-5f0528e8f7ce">
+      <name>Месяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

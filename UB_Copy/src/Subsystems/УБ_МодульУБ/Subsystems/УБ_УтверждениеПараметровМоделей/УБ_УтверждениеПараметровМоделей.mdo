@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56d92560-3c44-4a70-b179-7f4df1d72360">
+  <name>УБ_УтверждениеПараметровМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка параметров материальной мотивации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УБ_УстановкаЗначенийШкалыПоказателей</content>
+  <content>Document.УБ_УстановкаПропорцийМатериальнойМотивации</content>
+  <content>Document.УБ_УстановкаФиксированныхПоказателейОрганизации</content>
+  <content>Document.УБ_УтверждениеГрейда</content>
+  <content>DataProcessor.УБ_СравнениеВерсийГрейда</content>
+  <content>Catalog.УБ_МоделиПланированияЭффективности</content>
+  <parentSubsystem>Subsystem.УБ_МодульУБ</parentSubsystem>
+</mdclass:Subsystem>

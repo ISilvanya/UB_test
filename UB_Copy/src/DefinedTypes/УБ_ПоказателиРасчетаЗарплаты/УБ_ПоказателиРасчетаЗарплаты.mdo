@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f98bdde-6177-4b05-abf3-09d298ce3d5d">
+  <producedTypes>
+    <containerType typeId="aca35444-269c-424b-a87f-937895aee278" valueTypeId="bccf1757-2251-484b-8c51-0a8133f155dc"/>
+  </producedTypes>
+  <name>УБ_ПоказателиРасчетаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели расчета зарплаты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УБ_ПоказателиРасчетаЗарплаты</types>
+    <types>CatalogRef.ПоказателиРасчетаЗарплаты</types>
+  </type>
+</mdclass:DefinedType>

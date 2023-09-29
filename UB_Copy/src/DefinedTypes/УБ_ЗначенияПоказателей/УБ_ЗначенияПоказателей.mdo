@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752cf206-62ca-4ebe-9462-2bee0379d724">
+  <producedTypes>
+    <containerType typeId="c0fa13d7-ab25-4ab6-a6e5-71b483eaa603" valueTypeId="bc293b9c-0e75-4f21-8aa5-0fa95b3f59ae"/>
+  </producedTypes>
+  <name>УБ_ЗначенияПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения показателей (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1ee2dd-24ef-4324-971f-e635c654490a">
+  <producedTypes>
+    <containerType typeId="2443e987-a6ab-42f1-8c89-9f553dc58f48" valueTypeId="5a7ceec6-f602-4f21-ae76-4e77a7333eab"/>
+  </producedTypes>
+  <name>УБ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.УБ_Сотрудники</types>
+  </type>
+</mdclass:DefinedType>

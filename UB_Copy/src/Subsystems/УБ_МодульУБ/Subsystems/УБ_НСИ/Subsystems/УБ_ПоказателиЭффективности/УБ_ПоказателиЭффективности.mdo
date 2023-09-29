@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fa51616-8d53-4b7d-9293-68c547c46398">
+  <name>УБ_ПоказателиЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели эффективности</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УБ_ПоказателиЭффективности</content>
+  <content>Catalog.УдалитьУБ_ПринадлежностьПоказателей</content>
+  <content>Catalog.УБ_ТипыПоказателей</content>
+  <content>Catalog.УБ_ШкалыПоказателей</content>
+  <content>Catalog.УБ_ПричиныОтсутствия</content>
+  <content>Catalog.УБ_ПерспективыССП</content>
+  <content>Catalog.УБ_ГоризонтыПланирования</content>
+  <content>Catalog.УБ_ЕдиницыИзмеренияПоказателей</content>
+  <content>Catalog.УБ_Цели</content>
+  <content>CommonModule.УБ_ОбщегоНазначенияКлиент</content>
+  <content>CommonModule.СегментыСервер</content>
+  <content>CommonModule.СегментыВызовСервера</content>
+  <content>CommonModule.УБ_ПользовательскийИнтерфейсКлиент</content>
+  <parentSubsystem>Subsystem.УБ_МодульУБ.Subsystem.УБ_НСИ</parentSubsystem>
+</mdclass:Subsystem>

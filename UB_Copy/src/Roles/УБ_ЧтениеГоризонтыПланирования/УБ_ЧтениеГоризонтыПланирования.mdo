@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f666509-4b81-4d6a-9a25-0bc94e76ee0f">
+  <name>УБ_ЧтениеГоризонтыПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ чтение горизонты планирования</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48ccefb9-1745-496e-a3e1-9abfc740a857">
+  <name>УБ_ИспользоватьОтклоненияВТабличнойЧастиДокументовПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отклонения от показателя в табличной части документов планирования (УБ)</value>
+  </synonym>
+  <location>Constant.УБ_ИспользоватьОтклоненияВТабличнойЧастиДокументовПланирования</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.УБ_ПланированиеЦелейИПоказателей.TabularSection.Показатели.Attribute.НегативноеОтклонениеНормыДо</content>
+  <content>Document.УБ_ПланированиеЦелейИПоказателей.TabularSection.Показатели.Attribute.ПограничноеОтклонениеНормыОт</content>
+  <content>Document.УБ_ПланированиеЦелейИПоказателей.TabularSection.Показатели.Attribute.ПограничноеОтклонениеНормыДо</content>
+  <content>Document.УБ_ПланированиеЦелейИПоказателей.TabularSection.Показатели.Attribute.ПозитивноеОтклонениеНормыОт</content>
+</mdclass:FunctionalOption>

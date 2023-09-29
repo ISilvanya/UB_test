@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fee94ffa-150f-4e7e-a0b0-e900831e2407">
+  <name>УБ_ОбработкаЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБ обработка заполнения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УБ_УстановкаЗначенийШкалыПоказателей</types>
+    <types>DocumentObject.УБ_ПланированиеЦелейИПоказателей</types>
+    <types>CatalogObject.УБ_Грейды</types>
+    <types>CatalogObject.УБ_ШкалыОценок</types>
+    <types>CatalogObject.УБ_ВидыОценок</types>
+    <types>CatalogObject.УдалитьУБ_ПринадлежностьПоказателей</types>
+    <types>CatalogObject.УБ_МоделиПланированияЭффективности</types>
+    <types>CatalogObject.УБ_УтверждениеГрейдаПрисоединенныеФайлы</types>
+    <types>CatalogObject.УБ_ПричиныОтсутствия</types>
+    <types>CatalogObject.УБ_СмартЗадачи</types>
+    <types>DocumentObject.УБ_ОтстранениеОтДолжности</types>
+    <types>CatalogObject.УБ_ШкалыПоказателей</types>
+    <types>CatalogObject.УБ_Должности</types>
+    <types>DocumentObject.УБ_УстановкаПропорцийМатериальнойМотивации</types>
+    <types>DocumentObject.УБ_УстановкаФиксированныхПоказателейОрганизации</types>
+    <types>DocumentObject.УБ_НазначениеРуководителя</types>
+    <types>CatalogObject.УБ_ШтатноеРасписание</types>
+    <types>CatalogObject.УБ_Подразделения</types>
+    <types>CatalogObject.УБ_Сотрудники</types>
+    <types>CatalogObject.УБ_Стандарты</types>
+    <types>CatalogObject.УБ_ВерсииГрейдов</types>
+    <types>DocumentObject.УБ_УтверждениеГрейда</types>
+    <types>DocumentObject.УБ_НазначениеНаДолжность</types>
+    <types>CatalogObject.УБ_ТипыПоказателей</types>
+    <types>CatalogObject.УБ_ПоказателиЭффективности</types>
+    <types>CatalogObject.УБ_РасчетЭффективностиСотрудниковПрисоединенныеФайлы</types>
+    <types>DocumentObject.УБ_ПереводНаДолжность</types>
+    <types>CatalogObject.УБ_ПоказателиРасчетаЗарплаты</types>
+    <types>CatalogObject.УБ_НазначениеРуководителяПрисоединенныеФайлы</types>
+    <types>DocumentObject.УБ_Делегирование</types>
+    <types>DocumentObject.УБ_РасчетЭффективностиСотрудников</types>
+    <types>DocumentObject.УБ_УстановкаФактаПоказателей</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.УБ_ОбщегоНазначения.УБ_ОбработкаЗаполненияОбработкаЗаполнения</handler>
+</mdclass:EventSubscription>

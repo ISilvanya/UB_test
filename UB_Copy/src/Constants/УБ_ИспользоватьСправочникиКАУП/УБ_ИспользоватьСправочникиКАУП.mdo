@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b75da461-1160-4a7f-bc52-351a20a748d6">
+  <producedTypes>
+    <managerType typeId="b539de1a-5270-4fe0-a058-e68c0164c7a5" valueTypeId="9e359638-34a8-4331-9c4e-670cbaa90206"/>
+    <valueManagerType typeId="24306394-5d4d-4822-8835-2a92b97353ed" valueTypeId="12b2bb26-77ec-416b-bfca-2addb63c5f78"/>
+    <valueKeyType typeId="b12cdf77-85a7-470f-8863-afefb74ac864" valueTypeId="f7d1a122-98f6-4475-a42c-30c4796dd189"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьСправочникиКАУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать справочники КА, УП (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать справочники КА, УП</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

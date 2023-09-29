@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f825eed3-5f01-4360-ab39-a433ac0d53bc">
+  <producedTypes>
+    <selectionType typeId="aea4942a-5ce6-4227-885a-ad734f19ad11" valueTypeId="b4564197-7fd4-4316-bf3c-46e032ac3280"/>
+    <listType typeId="14b7e73c-e047-40e9-a39b-a3726de58bee" valueTypeId="0e27c5ce-0056-4c7a-9ffa-39a81c89761c"/>
+    <managerType typeId="bf607b43-926a-42af-acc2-053ab42a251a" valueTypeId="1acefe47-cd94-4307-b65a-816ba76e3ad7"/>
+    <recordSetType typeId="7828afc3-67cc-4030-9648-ff053239ebe3" valueTypeId="0775bea0-80f9-461c-9174-e98e5642cba1"/>
+    <recordKeyType typeId="1fb8c0e8-626b-4c8e-8c8c-e700727b7cd8" valueTypeId="bdfbe00a-47ef-48a2-829e-2ee44f54b725"/>
+    <recordType typeId="2efb789c-4631-4e53-8b66-4fbb938719dc" valueTypeId="618db327-cc81-4a9e-b01d-98a8ef4d3530"/>
+    <recordManagerType typeId="c76f9543-17f9-4ad5-bcad-28900be5afb0" valueTypeId="7e8bac01-d354-4369-a75d-fda7d894dcd8"/>
+  </producedTypes>
+  <name>УБ_ПропорцииМатериальнойМотивации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пропорции материальной мотивации (УБ)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пропорции материальной мотивации</value>
+  </listPresentation>
+  <resources uuid="b4b23230-9291-4594-be69-10a5926ea991">
+    <name>ПроцентПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="26578396-1961-4fc6-a7a1-96c94eea3330">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

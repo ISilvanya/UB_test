@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Владелец</dataPath>
+			<field>Владелец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСтавок</dataPath>
+			<field>КоличествоСтавок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаУтверждения</dataPath>
+			<field>ДатаУтверждения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Должность</dataPath>
+			<field>Должность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаПозицийПодразделения</dataPath>
+			<field>ГруппаПозицийПодразделения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Утверждена</dataPath>
+			<field>Утверждена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Закрыта</dataPath>
+			<field>Закрыта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗакрытия</dataPath>
+			<field>ДатаЗакрытия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МодельПланирования</dataPath>
+			<field>МодельПланирования</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	УБ_ШтатноеРасписание.Владелец КАК Владелец,
+	УБ_ШтатноеРасписание.Подразделение КАК Подразделение,
+	УБ_ШтатноеРасписание.Должность КАК Должность,
+	УБ_ШтатноеРасписание.КоличествоСтавок КАК КоличествоСтавок,
+	УБ_ШтатноеРасписание.Утверждена КАК Утверждена,
+	УБ_ШтатноеРасписание.ДатаУтверждения КАК ДатаУтверждения,
+	УБ_ШтатноеРасписание.Закрыта КАК Закрыта,
+	УБ_ШтатноеРасписание.ДатаЗакрытия КАК ДатаЗакрытия,
+	УБ_ШтатноеРасписание.ГруппаПозицийПодразделения КАК ГруппаПозицийПодразделения,
+	УБ_МоделиПланированияЭффективности.Ссылка КАК МодельПланирования
+{ВЫБРАТЬ
+	Владелец.*,
+	Подразделение.*,
+	Должность.*,
+	КоличествоСтавок,
+	Утверждена,
+	ДатаУтверждения,
+	Закрыта,
+	ДатаЗакрытия,
+	ГруппаПозицийПодразделения,
+	МодельПланирования.*}
+ИЗ
+	Справочник.УБ_ШтатноеРасписание КАК УБ_ШтатноеРасписание
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УБ_МоделиПланированияЭффективности КАК УБ_МоделиПланированияЭффективности
+		ПО УБ_ШтатноеРасписание.Ссылка = УБ_МоделиПланированияЭффективности.ШтатноеРасписание
+{ГДЕ
+	УБ_ШтатноеРасписание.Владелец.*,
+	УБ_ШтатноеРасписание.Подразделение.*,
+	УБ_ШтатноеРасписание.Должность.*,
+	УБ_ШтатноеРасписание.Утверждена,
+	УБ_ШтатноеРасписание.ДатаУтверждения,
+	УБ_ШтатноеРасписание.Закрыта,
+	УБ_ШтатноеРасписание.ДатаЗакрытия}</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>ШтатноеРасписание</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Штатное расписание</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Владелец</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Должность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоСтавок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МодельПланирования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Утверждена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаУтверждения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Закрыта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаЗакрытия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГруппаПозицийПодразделения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

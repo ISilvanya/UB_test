@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63635082-233d-44e7-9f25-b80f2b1c3249">
+  <producedTypes>
+    <managerType typeId="6bd5e5ae-2482-4b74-bc78-714cdea220fa" valueTypeId="73a5c4f0-2b84-43b5-9a72-1091a2ff84a3"/>
+    <valueManagerType typeId="89096ee3-65ea-46c2-b7b1-88dedf777e7e" valueTypeId="1b9b003a-0cca-4c16-85a2-094f05584e58"/>
+    <valueKeyType typeId="6994c142-ab1c-4472-af41-401188e26b40" valueTypeId="85eb1955-d051-47a5-8532-9aed2533d6b6"/>
+  </producedTypes>
+  <name>УБ_ПроцентПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент премии</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

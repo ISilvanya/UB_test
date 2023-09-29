@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dea82687-890a-413b-acfe-55fb0fef2788">
+  <name>CRM_ПиктограммаТрендаПадениеУхудшается</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма тренда падение ухудшается</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM trend pictogram drop worsens</value>
+  </synonym>
+</mdclass:CommonPicture>

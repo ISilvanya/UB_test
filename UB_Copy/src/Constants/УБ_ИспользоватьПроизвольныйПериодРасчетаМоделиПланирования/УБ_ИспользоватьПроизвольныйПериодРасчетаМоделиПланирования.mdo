@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204efd2b-b0ac-41d7-b2c0-6681fe280630">
+  <producedTypes>
+    <managerType typeId="5c16816b-ee0a-4fe2-b418-deafbbc60df4" valueTypeId="ea139ec4-199f-4131-8718-3fbb752487a7"/>
+    <valueManagerType typeId="95f2eedd-1908-4378-b5ea-57908ce0a4ff" valueTypeId="b8b4d295-df24-45da-b009-601e8f6195f4"/>
+    <valueKeyType typeId="af44484c-5472-4bf5-bba0-cb3730614150" valueTypeId="a6c75ea1-414c-41ad-aa0b-ce1078388ea9"/>
+  </producedTypes>
+  <name>УБ_ИспользоватьПроизвольныйПериодРасчетаМоделиПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать произвольный период расчета модели планирования</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

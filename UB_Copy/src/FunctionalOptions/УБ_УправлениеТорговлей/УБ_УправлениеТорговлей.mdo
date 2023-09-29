@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ef6861-a8ab-429e-8e11-0499398ef92f">
+  <name>УБ_УправлениеТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление торговлей</value>
+  </synonym>
+  <location>Constant.УБ_УправлениеТорговлей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.УБ_Подразделения</content>
+  <content>Catalog.УБ_Должности</content>
+  <content>Catalog.УБ_ШтатноеРасписание</content>
+  <content>Catalog.УБ_ПоказателиРасчетаЗарплаты</content>
+  <content>Catalog.УБ_Сотрудники</content>
+</mdclass:FunctionalOption>

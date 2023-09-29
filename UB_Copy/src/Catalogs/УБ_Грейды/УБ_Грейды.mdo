@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76114638-3cca-4b30-95da-2f1c20cab2d4">
+  <producedTypes>
+    <objectType typeId="16a51166-b5c0-4eb1-a9d9-eee7f74f5f3b" valueTypeId="71374e53-0cc2-429b-8935-7ffebfe8f219"/>
+    <refType typeId="8e556d98-d5c1-417d-9400-a89c8a5e6fd0" valueTypeId="3ab74953-48d1-49f7-95f0-c88c6906acae"/>
+    <selectionType typeId="2b216c83-c82f-48fd-93d9-b9a40ae5a27e" valueTypeId="f4a183ab-5475-40ec-885b-4ceb54b8fb58"/>
+    <listType typeId="f2611f60-735a-4316-9972-fa77fa3d5668" valueTypeId="37024eb9-06cb-493c-a651-c4e8c9b3d0d2"/>
+    <managerType typeId="d886fba7-f320-4487-b9a4-ae9420ebab67" valueTypeId="980d230b-9a1c-485d-985f-3967e742732f"/>
+  </producedTypes>
+  <name>УБ_Грейды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории (грейды)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_Грейды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_Грейды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория (грейд)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Категории (грейды)</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УБ_МоделиПланированияЭффективности</owners>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБ_Грейды.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБ_Грейды.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8cd6371d-df90-4b64-af3f-befcf9540572">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e59afc5-4e50-4827-a324-53eccea267d9">
+    <name>ВАрхиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>В архиве</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8ececfde-28c3-4686-acbc-a59ab2519d7e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="afc99f6d-25fa-4eb4-8736-216f77e1c823">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

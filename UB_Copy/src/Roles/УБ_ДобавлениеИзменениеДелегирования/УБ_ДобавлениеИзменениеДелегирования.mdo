@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32eaefb0-3c70-40bf-a9b6-1c1b2f531a9a">
+  <name>УБ_ДобавлениеИзменениеДелегирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение делегирования (УБ)</value>
+  </synonym>
+</mdclass:Role>

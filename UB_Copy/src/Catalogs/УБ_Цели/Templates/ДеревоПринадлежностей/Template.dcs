@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Приемник</dataPath>
+			<field>Приемник</field>
+			<title xsi:type="xs:string">Приемник</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Картинка</dataPath>
+			<field>Картинка</field>
+			<title xsi:type="xs:string">Картинка</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+			<title xsi:type="xs:string">Статус</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Значение</dataPath>
+			<field>Значение</field>
+			<title xsi:type="xs:string">Значение</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтруктураПредприятия</v8:Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.УБ_Компании</v8:Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.УБ_Цели</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоГруппа</dataPath>
+			<field>ЭтоГруппа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Родитель</dataPath>
+			<field>Родитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Представление</dataPath>
+			<field>Представление</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЗначенияЦели</dataPath>
+			<field>ТипЗначенияЦели</field>
+			<title xsi:type="xs:string">Тип значения цели</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СтруктураПредприятия.Ссылка КАК Значение,
+	СтруктураПредприятия.Родитель КАК Приемник,
+	ВЫБОР
+		КОГДА СтруктураПредприятия.Ссылка.ПометкаУдаления
+			ТОГДА 2
+		ИНАЧЕ 1
+	КОНЕЦ КАК Картинка,
+	ЗНАЧЕНИЕ(Перечисление.УБ_СостоянияПоказателейЭффективности.ПустаяСсылка) КАК Статус,
+	ЛОЖЬ КАК ЭтоГруппа,
+	NULL КАК Родитель,
+	"СтруктураПредприятия" КАК ТипЗначенияЦели,
+	СтруктураПредприятия.Представление КАК Представление,
+	СтруктураПредприятия.ПометкаУдаления КАК ПометкаУдаления
+ПОМЕСТИТЬ ВременнаяТаблица
+ИЗ
+	Справочник.СтруктураПредприятия КАК СтруктураПредприятия
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	УБ_Цели.Ссылка,
+	УБ_Цели.ПринадлежностьЦели,
+	ВЫБОР
+		КОГДА УБ_Цели.Ссылка.ПометкаУдаления
+			ТОГДА 5
+		ИНАЧЕ 4
+	КОНЕЦ,
+	УБ_Цели.СостояниеЦели,
+	УБ_Цели.ЭтоГруппа,
+	УБ_Цели.Родитель,
+	"Цель",
+	УБ_Цели.Представление,
+	УБ_Цели.ПометкаУдаления
+ИЗ
+	Справочник.УБ_Цели КАК УБ_Цели
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблица.Значение КАК Значение,
+	ВременнаяТаблица.Приемник КАК Приемник,
+	ВременнаяТаблица.Картинка КАК Картинка,
+	ВременнаяТаблица.Статус КАК Статус,
+	ВременнаяТаблица.ЭтоГруппа КАК ЭтоГруппа,
+	ВременнаяТаблица.Родитель КАК Родитель,
+	ВременнаяТаблица.ТипЗначенияЦели КАК ТипЗначенияЦели,
+	ВременнаяТаблица.Представление КАК Представление,
+	ВременнаяТаблица.ПометкаУдаления КАК ПометкаУдаления
+{ВЫБРАТЬ
+	Значение.*,
+	Приемник.*,
+	Картинка,
+	Статус.*,
+	ЭтоГруппа,
+	Родитель.*,
+	ТипЗначенияЦели,
+	Представление,
+	ПометкаУдаления}
+ИЗ
+	ВременнаяТаблица КАК ВременнаяТаблица
+{ГДЕ
+	ВременнаяТаблица.Значение.* КАК Значение,
+	ВременнаяТаблица.ТипЗначенияЦели КАК ТипЗначенияЦели}</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<destinationDataSet>НаборДанных1</destinationDataSet>
+		<sourceExpression>Значение</sourceExpression>
+		<destinationExpression>Приемник</destinationExpression>
+		<linkConditionExpression>Истина</linkConditionExpression>
+		<startExpression>&amp;НачальноеЗначение</startExpression>
+	</dataSetLink>
+	<parameter>
+		<name>НачальноеЗначение</name>
+		<title xsi:type="xs:string">Начальное значение</title>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.СтруктураПредприятия.ПустаяСсылка</value>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.УБ_Компании.Компания</value>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Значение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Представление</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПометкаУдаления</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Картинка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭтоГруппа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Приемник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Родитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статус</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипЗначенияЦели</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Значение</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

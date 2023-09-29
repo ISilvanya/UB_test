@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9fbc027-4743-43bb-91cf-d89567e30d09">
+  <name>УБ_ВариантыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчетов (УБ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

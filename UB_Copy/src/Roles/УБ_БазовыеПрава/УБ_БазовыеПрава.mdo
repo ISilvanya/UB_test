@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22f69c32-57ea-49be-b12a-a4a038640b71">
+  <name>УБ_БазовыеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права (УБ)</value>
+  </synonym>
+</mdclass:Role>

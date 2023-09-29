@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b54a3d1-fe65-445d-a6f0-7a1b34df1cd8">
+  <producedTypes>
+    <selectionType typeId="7ef4035d-2801-41f5-b8dc-c8c26e01ac7f" valueTypeId="cf865d00-97af-46f0-b29d-0e8912765930"/>
+    <listType typeId="ebc76e19-96c4-486e-9d4f-4bbdf13dfbc3" valueTypeId="c7563b02-3805-4387-97d6-de39c1c13450"/>
+    <managerType typeId="d617d990-b4fa-4f0d-9d8a-d2c2e27a8d23" valueTypeId="17e4d585-687e-481b-b4cd-6cdc1059bef3"/>
+    <recordSetType typeId="1246a223-f3df-4f31-9c2c-0d7237e0ecbc" valueTypeId="2b1fa2fd-abd6-4fcb-abf2-f7a05e695199"/>
+    <recordKeyType typeId="f6e0a517-300c-48af-ad45-5191671b3931" valueTypeId="5350590e-a2ef-4e94-9d8d-805c929d4d49"/>
+    <recordType typeId="daadb98b-958b-4c3d-aee6-a1f796232657" valueTypeId="348d52a9-b246-4e41-a438-29ec321a9498"/>
+    <recordManagerType typeId="4ce0e6f7-c21d-406d-85c5-a1d4dc5e7d52" valueTypeId="be9a9093-3fed-478b-af76-bb60691fe733"/>
+  </producedTypes>
+  <name>удалитьУБ_РуководителиПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководители подразделений (УБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Руководители подразделений</value>
+  </listPresentation>
+  <resources uuid="20797ca6-82fc-4177-bcb6-1d92cc4c3bda">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a2963275-94d6-49f6-a59f-217bcef5b1fc">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="43d39151-11a2-4600-bb25-7565f5139951">
+    <name>КадровыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КадровыйПереводСписком</types>
+      <types>DocumentRef.ПриемНаРаботуСписком</types>
+      <types>DocumentRef.КадровыйПеревод</types>
+      <types>DocumentRef.УБ_НазначениеНаДолжность</types>
+      <types>DocumentRef.УБ_ПереводНаДолжность</types>
+      <types>DocumentRef.ПриемНаРаботу</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed729ee6-ea49-49c3-bad2-445b056b8f53">
+  <name>УБ_ОграничениеДоступаНаУровнеЗаписейУниверсально</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничение доступа на уровне записей универсально (УБ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4494ae4-c5b7-4743-8e43-cc42d42a5e44">
+  <name>УБ_УстановитьПрефиксИнформационнойБазыКодуСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы коду справочника (УБ)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.УБ_Грейды</types>
+    <types>CatalogObject.УБ_ШкалыОценок</types>
+    <types>CatalogObject.УБ_ВидыОценок</types>
+    <types>CatalogObject.УдалитьУБ_ПринадлежностьПоказателей</types>
+    <types>CatalogObject.УБ_МоделиПланированияЭффективности</types>
+    <types>CatalogObject.УБ_ПричиныОтсутствия</types>
+    <types>CatalogObject.УБ_СмартЗадачи</types>
+    <types>CatalogObject.УБ_ШкалыПоказателей</types>
+    <types>CatalogObject.УБ_Должности</types>
+    <types>CatalogObject.УБ_ШтатноеРасписание</types>
+    <types>CatalogObject.УБ_Подразделения</types>
+    <types>CatalogObject.УБ_Сотрудники</types>
+    <types>CatalogObject.УБ_Стандарты</types>
+    <types>CatalogObject.УБ_ВерсииГрейдов</types>
+    <types>CatalogObject.УБ_ТипыПоказателей</types>
+    <types>CatalogObject.УБ_ПоказателиЭффективности</types>
+    <types>CatalogObject.УБ_ПоказателиРасчетаЗарплаты</types>
+    <types>CatalogObject.УБ_ГоризонтыПланирования</types>
+  </source>
+  <event>OnSetNewCode</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

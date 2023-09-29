@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="333a5005-9bc8-485c-ba53-6937b5b76e48">
+  <producedTypes>
+    <selectionType typeId="d2500e39-244d-42da-a0fa-44e82e412a8b" valueTypeId="2b3990e7-2e05-4f2f-ac2f-faba9b3d682a"/>
+    <listType typeId="9e8f1335-ba6f-41ff-b677-da5bc12b467e" valueTypeId="7961ba54-e0ca-4788-beca-03db3f6892dc"/>
+    <managerType typeId="b088fa1b-3ec9-4a6a-abde-496a69c72aae" valueTypeId="c3e636ab-ccb2-488d-8394-c2807764de20"/>
+    <recordSetType typeId="137301b9-4d84-457c-9f91-f3678ffe7571" valueTypeId="1d70c501-0eb9-4b04-a54e-03a53b11d9f5"/>
+    <recordKeyType typeId="934577e1-956e-4969-99d5-f9464ff94e66" valueTypeId="93f17ea1-cab3-4d85-9034-ecd5f765a460"/>
+    <recordType typeId="78e7a497-1a8c-48aa-a2b3-3ab85db5fd8b" valueTypeId="7c8a2c98-1c47-4210-962e-9b5cafc8e474"/>
+    <recordManagerType typeId="46e9b6d9-7abd-4177-afd4-e653809949a6" valueTypeId="b2f76f7f-2c36-4e80-989c-401d8be73d6c"/>
+  </producedTypes>
+  <name>УБ_ВерсииГрейдов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии категорий (грейдов)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Версии категорий (грейдов)</value>
+  </listPresentation>
+  <resources uuid="8e74cb88-2d77-4e1c-b6b7-bcae66a90ffa">
+    <name>ВерсияГрейда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия грейда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ВерсииГрейдов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.УБ_ВерсииГрейдов.Dimension.Грейд</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="88456300-a6d0-411b-8597-d0d170b093a4">
+    <name>ПериодРасчетаМоделиПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период расчета модели планирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ПериодыРасчетаМоделиПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="19fc2e7d-f9ba-4811-8ac0-757d06c44578">
+    <name>ПредельныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предельный коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="26f603f2-9cb2-4a2d-ac7c-b895a4c261ec">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_СтатусыМоделейПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f4eb3552-6703-4953-a45d-f24c08e39faa">
+    <name>ВариантРасчетаПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант расчета премии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ВариантыРасчетаПремии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9960015e-41c9-4692-872c-b8db8a949e0f">
+    <name>ШкалаПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала показателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_ШкалыПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="13c829ba-b252-48e7-bbde-c2ae86b413fa">
+    <name>ПоказательРасчетаЗарплатыПриБезокладнойСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель расчета зарплаты при безокладной системе</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_ПоказателиРасчетаЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="59f4b256-1db6-4d97-bc14-cab712768f98">
+    <name>МодельПланированияЭффективности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель планирования эффективности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_МоделиПланированияЭффективности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f04ad405-1ec2-4946-8e3d-bac9e159891b">
+    <name>Грейд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грейд (категория)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБ_Грейды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.УБ_ВерсииГрейдов.Dimension.МодельПланированияЭффективности</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

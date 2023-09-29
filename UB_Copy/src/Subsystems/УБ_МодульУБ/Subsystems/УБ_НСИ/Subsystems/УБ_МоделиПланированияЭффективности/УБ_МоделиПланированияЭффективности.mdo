@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0b03809-3d0d-402c-b008-84086fbcd777">
+  <name>УБ_МоделиПланированияЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели планирования эффективности</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.УБ_ВерсииГрейдов</content>
+  <content>Catalog.УБ_Грейды</content>
+  <content>Catalog.УБ_СмартЗадачи</content>
+  <parentSubsystem>Subsystem.УБ_МодульУБ.Subsystem.УБ_НСИ</parentSubsystem>
+</mdclass:Subsystem>

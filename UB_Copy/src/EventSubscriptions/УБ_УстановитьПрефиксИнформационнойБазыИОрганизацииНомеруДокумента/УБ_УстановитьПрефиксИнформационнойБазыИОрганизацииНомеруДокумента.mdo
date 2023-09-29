@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="993504aa-78b2-4bed-a481-d78127071371">
+  <name>УБ_УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы и организации номеру документа (УБ)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УБ_ПланированиеЦелейИПоказателей</types>
+    <types>DocumentObject.УБ_ОтстранениеОтДолжности</types>
+    <types>DocumentObject.УБ_УстановкаПропорцийМатериальнойМотивации</types>
+    <types>DocumentObject.УБ_УстановкаФиксированныхПоказателейОрганизации</types>
+    <types>DocumentObject.УБ_НазначениеРуководителя</types>
+    <types>DocumentObject.УБ_УтверждениеГрейда</types>
+    <types>DocumentObject.УБ_НазначениеНаДолжность</types>
+    <types>DocumentObject.УБ_ПереводНаДолжность</types>
+    <types>DocumentObject.УБ_Делегирование</types>
+    <types>DocumentObject.УБ_РасчетЭффективностиСотрудников</types>
+    <types>DocumentObject.УБ_УстановкаФактаПоказателей</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазыИОрганизации</handler>
+</mdclass:EventSubscription>

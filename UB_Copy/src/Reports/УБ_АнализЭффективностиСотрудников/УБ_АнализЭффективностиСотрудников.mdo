@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951c3c43-036e-4259-bd2f-29739b4f639b">
+  <producedTypes>
+    <objectType typeId="83577448-e8df-44b1-879c-d137679cbff2" valueTypeId="461898f6-fc32-4a18-a69c-17825b3066c6"/>
+    <managerType typeId="4eb93608-d768-4564-a491-e1ec37486bdc" valueTypeId="4544514f-8e46-4243-89ac-e75fb9957ad1"/>
+  </producedTypes>
+  <name>УБ_АнализЭффективностиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ эффективности сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УБ_АнализЭффективностиСотрудников.Template.ДоработанныйОтчет</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="e61ad8b8-43e9-4e58-bd29-b3070ee66726">
+    <name>ДоработанныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доработанный отчет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

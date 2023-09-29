@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e33d2bd0-dfd1-4286-8b72-9120767d981a">
+  <producedTypes>
+    <refType typeId="c6ba3721-9845-4c60-932e-330cd08b2f05" valueTypeId="2d8915db-9516-4119-80b1-476a4a724f9c"/>
+    <listType typeId="d5d4247f-452f-4a98-b614-1d0bad2f954f" valueTypeId="9f3d8256-7ba0-463f-b1cc-5e035e76c036"/>
+    <managerType typeId="3e3b2297-f938-48dc-8530-8a4e1856b48f" valueTypeId="8833a9ec-98a4-4392-9fb2-2db72254b143"/>
+  </producedTypes>
+  <name>УБ_СостоянияПроцессовДляЗапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния процессов для запуска(УБ)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="34668dec-6ddd-41e3-a5d3-0baf0a1c5b83">
+    <name>ГотовКСтарту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к старту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ca69e68-5366-4816-8535-c18f43d2dff2">
+    <name>СтартОтменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

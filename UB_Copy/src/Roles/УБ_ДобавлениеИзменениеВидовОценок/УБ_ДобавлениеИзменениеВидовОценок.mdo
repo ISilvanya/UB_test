@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad1f8ed9-0ba7-4401-800f-79f2c5274541">
+  <name>УБ_ДобавлениеИзменениеВидовОценок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение видов оценок (УБ)</value>
+  </synonym>
+</mdclass:Role>

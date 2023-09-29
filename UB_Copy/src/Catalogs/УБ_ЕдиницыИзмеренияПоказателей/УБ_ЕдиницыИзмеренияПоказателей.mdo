@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2c56e11-d5a1-4462-a2bf-b67b947acb5e">
+  <producedTypes>
+    <objectType typeId="a8839f9c-4006-47ac-b150-b43b5f0124d8" valueTypeId="64271dbc-513e-4564-8af1-5b0f0b74443d"/>
+    <refType typeId="31d9c46c-cc0b-4cd4-994f-0b499d137c39" valueTypeId="3bfaada5-2fc6-4e85-8419-307d334404fb"/>
+    <selectionType typeId="98571954-5559-41bc-8cba-aff487f4e636" valueTypeId="7e2e7b4e-0cbd-4864-bf14-86c0918f159a"/>
+    <listType typeId="390f25c6-a3db-478e-9c8b-61758a0b4df3" valueTypeId="a038cbc0-bc45-48ee-806b-f6f2f9f89098"/>
+    <managerType typeId="22fc1b55-38ba-4c82-b3dd-52d7a73faf9c" valueTypeId="4d822b3f-bcbc-4c9d-92eb-668dde7dfdab"/>
+  </producedTypes>
+  <name>УБ_ЕдиницыИзмеренияПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения показателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБ_ЕдиницыИзмеренияПоказателей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБ_ЕдиницыИзмеренияПоказателей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения показателей</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9351316a-b288-4210-a7ae-288ff794443b">
+      <name>МиллионыРублей</name>
+      <description>Млн. р.</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="5e925f49-51dc-4598-a48d-630e9e8da1a2">
+      <name>Рубли</name>
+      <description>руб.</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f2d92571-b568-404e-ba3d-80924d036e59">
+      <name>ТысячиРублей</name>
+      <description>Т.р.</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="285bda5e-732e-449a-b107-def153491a66">
+    <name>Знаменатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратность отображения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Denominator</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

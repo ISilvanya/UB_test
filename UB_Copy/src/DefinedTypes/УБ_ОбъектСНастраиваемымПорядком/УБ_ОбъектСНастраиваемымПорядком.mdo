@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c7dca7e-935e-4fcd-8a62-42c63e8ab119">
+  <producedTypes>
+    <containerType typeId="7f19447a-85bf-45e5-8a45-e9af8044f4fa" valueTypeId="23df934a-5ad0-4f86-86cc-45d4fa607d42"/>
+  </producedTypes>
+  <name>УБ_ОбъектСНастраиваемымПорядком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с настраиваемым порядком (УБ)</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.УБ_Грейды</types>
+    <types>CatalogObject.УБ_ВидыОценок</types>
+    <types>CatalogObject.УБ_Стандарты</types>
+    <types>CatalogObject.УБ_ВерсииГрейдов</types>
+    <types>CatalogObject.УБ_ТипыПоказателей</types>
+    <types>CatalogObject.УБ_ПоказателиЭффективности</types>
+  </type>
+</mdclass:DefinedType>

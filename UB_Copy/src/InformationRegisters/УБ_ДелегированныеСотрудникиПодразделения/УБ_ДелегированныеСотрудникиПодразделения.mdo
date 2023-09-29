@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1c2b6c9-3d2c-486c-a492-45d243593fb0">
+  <producedTypes>
+    <selectionType typeId="fefb3b5d-7e43-490d-835f-28768ad784f3" valueTypeId="61519616-ccfc-4f31-8739-d7eeb9f272ce"/>
+    <listType typeId="8e6909b9-f889-437f-8522-258981bf8882" valueTypeId="d011e9f3-2c09-4796-8d8e-59d76c03d9fd"/>
+    <managerType typeId="005e0e15-54fe-4bd7-9cbd-a6961f84a18f" valueTypeId="db8046fd-471a-4549-96bb-bb646674c382"/>
+    <recordSetType typeId="c32f0562-2b81-4581-8d66-5f522c23ac88" valueTypeId="3e89c60a-ed87-4c04-bbb9-7316fd16d9cc"/>
+    <recordKeyType typeId="030d9ae4-fa03-46ca-9c10-9b659eae8590" valueTypeId="4a93a5d2-d7c1-4ddd-9beb-e9a743d6a729"/>
+    <recordType typeId="b1f0b9ec-bdcf-4efc-bceb-17ded324d0dc" valueTypeId="7578fa1c-b8aa-4904-8ab4-bacf03b1efb1"/>
+    <recordManagerType typeId="102b1dce-ee98-43ab-b90b-639a3d5c6680" valueTypeId="17f05cbd-ee16-456f-a446-33d0f01f57a1"/>
+  </producedTypes>
+  <name>УБ_ДелегированныеСотрудникиПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Делегированные сотрудники подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a8798049-4555-48de-957e-91824bc7ee2a">
+    <name>ЗаместительРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>И.О. руководителя (пользователь)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1e30e09a-a4e5-4ea9-9193-063a3344aff5">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>И.О. руководителя (сотрудник)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="45ed4fa7-045a-40f3-bbdd-2d3294c0305e">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2d14973e-7ae0-4416-98c5-4176999ee350">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4db8cdb4-72f9-4757-9d8a-ce1beee06f24">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБ_ВидыОперацийДелегирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bc5b1f4d-fdc4-4b67-8294-96ca779ec60a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="dc0ff425-d2b1-475f-9d26-ed95c7150333">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="63669b1d-7eed-45b9-ad0d-5262f143f429">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>
